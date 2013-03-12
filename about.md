@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About BeiYuu
+title: About Ted
 ---
 # [BeiYuu][]
 

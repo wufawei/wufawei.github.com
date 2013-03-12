@@ -12,5 +12,5 @@ category: blog
 
 
 
-[BeiYuu]:    http://beiyuu.com  "BeiYuu"
+[Ted]:    http://wufawei.github.com  "Ted"
 [1]:    {{ page.url}}  ({{ page.title }})
