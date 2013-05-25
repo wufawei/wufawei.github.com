@@ -31,7 +31,7 @@ tags:
      forMode:NSRunLoopCommonModes];  
 
 
-3）如何在后台线程运行NSURLConnection  
+**3）如何在后台线程运行NSURLConnection**    
     答案就是通过CFRunLoopRun()使得后台线程一直执行，使用CFRunLoopStop(CFRunLoopGetCurrent())结束。  
 
 参考文献：  
