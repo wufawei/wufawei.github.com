@@ -25,14 +25,15 @@ tags:
     NSURLConnection *connection = [[NSURLConnection alloc] 
      initWithRequest:request delegate:self startImmediately:NO];
     [connection start];
-    NSURLConnection默认运行在default mode下，这样当用户在拖动UITableView处于UITrackingRunLoopMode模式时， NSURLConnection的数据也无法处理。
-      通过下面的方法可以解决这个问题：
+NSURLConnection默认运行在default mode下，这样当用户在拖动UITableView处于UITrackingRunLoopMode模式时， NSURLConnection的数据也无法处理。  
+  通过下面的方法可以解决这个问题：  
+
      [connection scheduleInRunLoop:[NSRunLoop currentRunLoop] 
      forMode:NSRunLoopCommonModes];  
 
 
 **3）如何在后台线程运行NSURLConnection**    
-    答案就是通过CFRunLoopRun()使得后台线程一直执行，使用CFRunLoopStop(CFRunLoopGetCurrent())结束。  
+答案就是通过CFRunLoopRun()使得后台线程一直执行，使用CFRunLoopStop(CFRunLoopGetCurrent())结束。  
 
 参考文献：  
 1）http://stackoverflow.com/questions/7222449/nsdefaultrunloopmode-vs-nsrunloopcommonmodes  
