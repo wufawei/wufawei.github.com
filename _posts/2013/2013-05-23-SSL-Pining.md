@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: 通过SSL Pining提供iOS SSL通信的安全
 categories:
@@ -12,6 +12,7 @@ tags:
       使用SSL Pinning可以消除这个可能。也可能用户本身故意作为攻击者来探查加密的网络流量。可能使用 Charles 或者mitmproxy来安装一个受信任的证书。你的app需要有能力通过SSL Pinning来阻止这种嗅探攻击。
 SSL Pinning就是client能够把server的证书和一个已知的server的证书的拷贝做对比，通过把server的SSL 证书捆绑到程序中就可以达到目的。
 在iOS中可以使用NSURLConnectionDelegate 协议中的connection:willSendRequestForAuthenticationChallenge: 来检查
+
 
 SSL Pinning for Increased App Security
 http://www.doubleencore.com/2013/03/ssl-pinning-for-increased-app-security/?utm_source=iOS+Dev+Weekly&utm_campaign=a11b470e23-iOS_Dev_Weekly_Issue_88&utm_medium=email
