@@ -26,7 +26,7 @@ Objective-C使用“引用计数”来做内存管理。
 6）当一个对象被销毁后，如果还通过先前的引用进行操作，那就可能引发carsh或者不可预料的异常。  
 
 下图是上面的action对应的Objective-C方法：  
-![](http://farm9.staticflickr.com/8403/8867314869_9e8010763e_m.jpg)
+![](http://farm9.staticflickr.com/8403/8867314869_9e8010763e.jpg)
 
 用了创建对象的方法名称都有一定的规律，方法为以下这些或者以这些开头的方法。
 
@@ -48,7 +48,7 @@ Objective-C使用“引用计数”来做内存管理。
 通过调用autorelease,可以创建并返回一个对象，但是不拥有其所有权。Autorelease提供了一种机制，当对象的生命周期结束时候，它会释放掉对象。
 
 下图是release和autorelease的区别:    
-![](http://farm6.staticflickr.com/5339/8867321717_2257ec65c7_m.jpg)
+![](http://farm6.staticflickr.com/5339/8867321717_2257ec65c7.jpg)
 
 **二.引用计数的实现原理**
 
@@ -72,7 +72,7 @@ GNUsteop是Cocoa Framework的一个兼容实现，虽然不可能和苹果的实
 
 下图是alloc方法返回的对象示例：
 
-![](http://farm6.staticflickr.com/5329/8867321873_45e0061b1e_m.jpg)
+![](http://farm6.staticflickr.com/5329/8867321873_45e0061b1e.jpg)
 
 **retain方法**  
 
@@ -191,7 +191,7 @@ NSObject调用allocWithZone之后，调用class_createInstance在其内部调用
     
     
 对象的引用计数的信息保存在一个哈希表中.见图：  
-![](http://farm6.staticflickr.com/5464/8867320507_7239a1e7b3_m.jpg)
+![](http://farm6.staticflickr.com/5464/8867320507_7239a1e7b3_b.jpg)
 
 **小结**
 留个问题，GNUstep的实现和Apple的实现，各自的优势是什么呢？
