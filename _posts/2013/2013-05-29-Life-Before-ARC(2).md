@@ -59,7 +59,7 @@ tags:
     id array = [[[NSMutableArray alloc] initWithCapacity:1] autorelease];
 
 
-**GNUstepd中的实现**
+**GNUstep中的实现**
 
     in NSObject.m:
     - (id) autorelease
