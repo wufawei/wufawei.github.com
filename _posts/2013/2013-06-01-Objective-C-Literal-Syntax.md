@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Objective-CLiteral Syntax
-categories:
-- Programming
+layout: post  
+title: Objective-C Literal Syntax  
+categories:  
+- Programming  
 tags:
 - iOS
 ---
