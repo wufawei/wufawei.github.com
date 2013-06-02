@@ -6,7 +6,6 @@ categories:
 tags:
 - iOS
 ---
-
 **Hire Slow，Fire Fast**
 
   招聘是一个团队持久发展的重要环节。王淮Harry哥在Facebook的十点经验分享中说过，只和最好的人合作（能够尽其所知，用其所长，学其所不能的；能迅速完成目标并远超期望的），Hire Slow，Fire Fast；招的人要足够优秀，要保证能力大于团队的平均水平。
