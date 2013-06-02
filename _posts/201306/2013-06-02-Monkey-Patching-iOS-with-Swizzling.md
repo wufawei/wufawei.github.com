@@ -2,9 +2,9 @@
 layout: post  
 title: Monkey Patching iOS with Swizzling  
 categories:  
-- 其他  
+- Programming  
 tags:
-- Jekyll
+- iOS
 ---
 
 **1 什么是Monkey-patching**  
