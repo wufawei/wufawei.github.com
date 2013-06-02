@@ -46,8 +46,10 @@ NSDictionary literals
 **2 copy vs mutablecopy**  
 NSMutableDictionary的对象copy之后，是不可变（immutable）的。
 比如：       
-NSMutableDictionary *demoMutable = [NSMutableDictionary alloc] init];  
-id copyResult = [demoMutable copy];  
+
+`NSMutableDictionary *demoMutable = [NSMutableDictionary alloc] init];`  
+`id copyResult = [demoMutable copy];`  
+
 copyResult是不可变的。可以打印其class查看。
 
 ​http://stackoverflow.com/questions/1768937/how-do-i-convert-nsmutablearray-to-nsarray
