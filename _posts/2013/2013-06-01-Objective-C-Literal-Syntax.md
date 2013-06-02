@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Objective-C Literal Syntax
+title: Objective-CLiteral Syntax
 categories:
 - Programming
 tags:
@@ -8,7 +8,7 @@ tags:
 ---
 
 **1)Objective-C Literal Syntax**  
-从Xcode 4.5开始，可以在Objective-C中以literal Syntax来定义NSNumber, NSArray和NSDictionary，就像之前定义NSString的对象那样。Literal Syntax，简单说就是以@@字符开始的方式简单地创建数组、字典、NSNumber常量。
+从Xcode 4.5开始，可以在Objective-C中以literal Syntax来定义NSNumber, NSArray和NSDictionary。Literal Syntax，简单说就是以@@字符开始的方式简单地创建数组、字典、NSNumber常量。
 
 定义一个NSString对象，最简单的方法就是用下面的方法：
 
