@@ -71,7 +71,7 @@ jail break 相当于对苹果做签名检查的地方打了个补丁，使得不
 最后可以获得好几个文件，下面是里面的2个例子。（**密码都被我用password字串替换**）
 
 a) 是家里的**WIFI**信息  
-![](http://farm6.staticflickr.com/5446/8937211262_0a3c9a75b6.jpg)
+![](http://farm9.staticflickr.com/8118/8937210612_75207600a5.jpg)
 
 b）是**某知名微博**
 
