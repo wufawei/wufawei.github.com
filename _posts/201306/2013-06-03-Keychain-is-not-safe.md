@@ -4,11 +4,12 @@ title: Keychain is not safe
 categories:  
 - programming  
 tags:
-- iOS
+- iO, security
 ---
 
 ## 1 Keychain ##
 
+ 
 一般来说mobile app都需要在本地保存一些较为敏感的数据。如何安全的保存这些数据就是一个值得深入探讨的问题。
 
 Mac OS 可以利用Keychain保存各应用中用户的账号密码，让用户不用重复输入，在iOS中也有Keychain，也可以在应用之间共享数据，只是有些限制，用户无法通过手动控制。
@@ -83,6 +84,7 @@ b）是某知名微博
 ## 3 个人如何防止信息泄露 ##
  a）修改root的默认密码。  
  b) 安装能信任的jail break app。
+
 
 ## 4 对开发者和公司 ##
  **不要保存用户的明文密码。**  
