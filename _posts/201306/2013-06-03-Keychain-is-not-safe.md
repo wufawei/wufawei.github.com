@@ -99,7 +99,7 @@ b）是**某知名微博**
 
 2 [Keychain dumper usage explained](http://www.securitylearn.net/2012/03/27/keychain-dumper-usage-explained/)
 
-3 [iOS security](http://images.apple.com/ipad/business/docs/iOS_Security_May12.pdf)
+3 [iOS security](http://images.apple.com/iphone/business/docs/iOS_Security_Oct12.pdf)
 
 4 [“Researchers steal iPhone passwords in 6 minutes”…true…but not the whole story"](http://labs.neohapsis.com/2011/02/28/researchers-steal-iphone-passwords-in-6-minutes-true-but-not-the-whole-story/)
 
