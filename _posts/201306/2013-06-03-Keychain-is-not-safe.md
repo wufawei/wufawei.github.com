@@ -68,12 +68,12 @@ jail break 相当于对苹果做签名检查的地方打了个补丁，使得不
 但是，要在社保上执行keychain dumper，就需要用chmod 777设置其权限，需要root权限，而jail break之后的默认密码是：alpine。
 
 
-最后可以获得好几个文件，下面是里面的2个例子。（密码都被我用password字串替换）
+最后可以获得好几个文件，下面是里面的2个例子。（**密码都被我用password字串替换**）
 
-a) 是家里的WIFI信息  
+a) 是家里的**WIFI**信息  
 ![](http://farm6.staticflickr.com/5446/8937211262_0a3c9a75b6.jpg)
 
-b）是某知名微博
+b）是**某知名微博**
 
 ![](http://farm6.staticflickr.com/5446/8937211262_0a3c9a75b6.jpg)
 
@@ -92,6 +92,8 @@ b）是某知名微博
 
 
 **Have Fun!**
+
+
 
 1 http://iosdeveloper.diandian.com/post/2012-09-05/40038606930
 
