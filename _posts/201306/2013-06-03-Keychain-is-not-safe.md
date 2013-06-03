@@ -16,7 +16,7 @@ Mac OS 可以利用Keychain保存各应用中用户的账号密码，让用户�
 
 KeyChain中的所有数据都以key－value的形式进行存储，可以对其进行add、update、get、delete操作。
 
-如果需要在应用里使用keyChain，需要导入Security.framework，keychain的操作接口声明在头文件SecItem.h里。直接使用SecItem.h里方法操作keychain，需要写的代码较为复杂，可以使用已经封装好了的工具类SFHFKeychainUtils，见：https://github.com/ldandersen/scifihifi-iphone/tree/master/security 
+如果需要在应用里使用keyChain，需要导入Security.framework，keychain的操作接口声明在头文件SecItem.h里。直接使用SecItem.h里方法操作keychain，需要写的代码较为复杂，可以使用已经封装好了的工具类SFHFKeychainUtils，见：<https://github.com/ldandersen/scifihifi-iphone/tree/master/security> 
 
 
 对每个应用来说，Keychain都有两个访问区，私有区和公共区。私有区是一个sandbox，本程序存储的任何数据都对其他程序不可见。Keychain中保存的信息是用app unique签名了的，默认只有自己能够访问。
@@ -95,7 +95,7 @@ b）是**某知名微博**
 
 
 
-1 http://iosdeveloper.diandian.com/post/2012-09-05/40038606930
+1 <http://iosdeveloper.diandian.com/post/2012-09-05/40038606930>
 
 2 [Keychain dumper usage explained](http://www.securitylearn.net/2012/03/27/keychain-dumper-usage-explained/)
 
