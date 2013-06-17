@@ -7,16 +7,16 @@ tags:
 - webp
 ---
 
-##### 1 WebP是什么 
+## 1 WebP是什么 
 WebP是Google推出的一种同时提供了有损压缩与无损压缩的图片格式。目前互联网上传输的数据有65%都是图片，WebP就是出于减少数据量、加速网络传输的目的而开发的。WebP希望能够达到和JPEG同水平的图片质量，但是更小的文件，以减少图片的传送时间。
 
 在有损压缩的状况下，WebP比同样画质的JPEG少了25% ～ 34%的文件大小 。而在无损压缩的情形中，比起用libpng产生的PNG图片，WebP少了34%的文件大小，也比用pngout再处理过的PNG图片少了26%的文件大小。
 
-##### 2 WebP的使用
+## 2 WebP的使用
 webp图片压缩率会比jpeg、png更高，因此下载图片会更省流量，特别适合在mobile app上使用。
 比如iOS app上，可以把webp编译生成framework，然后加入引用就可以是使用了。强烈推荐。
 
-##### 3 如何生成webp framework
+## 3 如何生成webp framework
 
 a) 下载webp库   
 
