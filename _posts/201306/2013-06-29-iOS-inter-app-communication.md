@@ -14,7 +14,7 @@ iOS app之间要共享数据不是那么容易，因为每个app都是sandbox。
 
 * UIDocumentInteractionController   
  Availability: iOS 3.2+  
-  具体用法参见：http://mobile.tutsplus.com/tutorials/iphone/previewing-and-opening-documents-with-uidocumentinteractioncontroller/
+  具体用法参见：<http://mobile.tutsplus.com/tutorials/iphone/previewing-and-opening-documents-with-uidocumentinteractioncontroller/>
 
 * UIActivityViewController    
  Availability: iOS 6.0+
