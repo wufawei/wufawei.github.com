@@ -8,27 +8,27 @@ tags:
 ---   
  
  
-文章分A,B,C,D几个部分。
+文章分A,B,C,D 4个部分。
 
 ###A) iOS Application Security ##
 <br />
-下面介绍了iOS应用安全，如何分析和动态修改app。    
+下面介绍iOS应用安全，如何分析和动态修改app。    
 1）[iOS Application security Part 1 – Setting up a mobile pentesting platform](http://resources.infosecinstitute.com/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/) 
-这篇文章介绍了如何在越狱的设备上搭建用来测试iOS安全的环境。
+Part1介绍如何在越狱的设备上搭建用来测试iOS安全的环境。
 
 2）[iOS Application security Part 2 – Getting class information of IOS apps](http://resources.infosecinstitute.com/ios-application-security-part-2-getting-class-information-of-ios-apps/) 
-Part2介绍了如何利用class-dump-z 和 Clutch 来dump类信息，利用这些信息，可以用来理解代码的设计和代码内部是如何工作的。  
+Part2介绍如何利用class-dump-z 和 Clutch 来dump类信息，利用这些信息，可以理解代码的设计和代码内部是如何工作的。  
 **有没有可能我们去动态修改app呢？**  
-例如有一个方法 -(BOOL)isFacebookSessionValid ，在某种情况下返回 false，有没有方法操纵它让它返回YES呢？  
+例如有一个方法 -(BOOL)isFacebookSessionValid ，在某种情况下返回 NO，有没有方法操纵它让它返回YES呢？  
 可不可以在运行时修改 instance variable变量的值呢？  
 **答案是：YES**。  
 
 3) [iOS Application security Part 3 – Understanding the Objective-C Runtime](http://resources.infosecinstitute.com/ios-application-security-part-3-understanding-the-objective-c-runtime/) 
-这篇文章最后提到Method Swizzling.我之前有篇blog有过介绍，参见：[Monkey Patching iOS with Swizzling](http://wufawei.com/2013/06/Monkey-Patching-iOS-with-Swizzling/)
+Part3提到Method Swizzling.我之前有篇blog有过介绍，参见：[Monkey Patching iOS with Swizzling](http://wufawei.com/2013/06/Monkey-Patching-iOS-with-Swizzling/)
 
 4) [iOS Application Security Part 4 – Runtime Analysis Using Cycript (Yahoo Weather App)](http://resources.infosecinstitute.com/ios-application-security-part-4-runtime-analysis-using-cycript-yahoo-weather-app/)
 
-Part4介绍了如何用Cycript动态分析和修改app的方法。文章那Yahoo Weather app做的例子。其中一处改动是给加上了badge number。
+Part4介绍了用Cycript动态分析和修改app的方法。文章拿Yahoo Weather app做的例子。其中一处改动是给加上了badge number。
 
 ![](http://farm3.staticflickr.com/2823/9241398663_b80335cd23.jpg)
 
