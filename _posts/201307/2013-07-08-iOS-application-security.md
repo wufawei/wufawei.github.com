@@ -45,7 +45,15 @@ Part5 分享了一些高级分析技术。分析了如何获得特定类的信�
 2）存plist文件。  
 3）存入keychain。  
 如果直接保存明文，即使在keychain中，也不安全。
-之前我写过一篇blog，[**keychain is not safe**](http://wufawei.com/2013/06/Keychain-is-not-safe/)，里面提到了某微博，其实就是**新浪微博客户端**，**把用户密码存在keychain中，在一定条件下，也是可以提取出来的**。
+之前我写过一篇blog，[**keychain is not safe**](http://wufawei.com/2013/06/Keychain-is-not-safe/)，里面提到了某微博，其实就是**新浪微博客户端**，**把用户密码存在keychain中，在一定条件下，也是可以提取出来的**。   
+  (下面图中password所在位置就是我新浪微博的密码，为了演示，这里修改了下。）
+
+
+
+![](http://farm6.staticflickr.com/5446/8937211262_0a3c9a75b6.jpg)
+
+
+
 
 
 ### C）通信的安全。  
@@ -72,7 +80,13 @@ Part5 分享了一些高级分析技术。分析了如何获得特定类的信�
 
 对于和钱打交道的app，至少，你需要提高门槛。
 
-**You should raise the bar.**
+**You should raise the bar.**        
+
+
+
+
+
+
 
 
 ---------这是分割线----------
@@ -85,8 +99,8 @@ Part5 分享了一些高级分析技术。分析了如何获得特定类的信�
 
 我的英文名是Ted.目前从事iOS开发相关工作.
 
-新浪微博: http://weibo.com/wufawei
+新浪微博: <http://weibo.com/wufawei>
 
-微信公众账号：iOS技术分享
+**微信公众账号：iOS技术分享**
                  
 ![](http://farm3.staticflickr.com/2861/8836295022_023774dd2f_m.jpg)
