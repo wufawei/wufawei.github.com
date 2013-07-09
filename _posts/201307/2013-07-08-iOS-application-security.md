@@ -68,7 +68,7 @@ Part5 分享了一些高级分析技术。分析了如何获得特定类的信�
 
 比如一些涉及到关键业务的东西，不能够直接给个URL，任何人都能从PC上就下载，一定要做身份校验，甚至要有time out值（URL里面有时间戳）。  
 
-**比如最近大家看到的关于支付宝插件的分析相关文章，如果是你来设计，请问会从哪些方面来加强安全呢。**
+**比如最近大家看到的关于支付宝插件的分析相关文章(参见：[分析支付宝客户端的插件机制](http://blog.devtang.com/blog/2013/06/23/alipay-plugin-mechanism/)，[浅析支付宝钱包插件](http://imallen.com/blog/2013/06/26/inside-alipay-plugin.html)，[再谈支付宝钱包插件和说好的 Demo](http://imallen.com/blog/2013/07/06/about-alipay-plugin-and-phonegap.html))，如果是你来设计，请问会从哪些方面来加强安全呢。**
 
 我想到这些：  
  1）**插件内容加密**。  
