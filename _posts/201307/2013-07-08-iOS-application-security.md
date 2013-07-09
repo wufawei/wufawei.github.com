@@ -33,12 +33,15 @@ Part4介绍了用Cycript动态分析和修改app的方法。文章拿Yahoo Weath
 ![](http://farm3.staticflickr.com/2823/9241398663_b80335cd23.jpg)
 
 
-5）[IOS Application security Part 5 – Advanced Runtime analysis and manipulation using Cycript (Yahoo Weather App)](http://resources.infosecinstitute.com/ios-application-security-part-5-advanced-runtime-analysis-and-manipulation-using-cycript-yahoo-weather-app/)
+5）[IOS Application security Part 5 – Advanced Runtime analysis and manipulation using Cycript (Yahoo Weather App)](http://resources.infosecinstitute.com/ios-application-security-part-5-advanced-runtime-analysis-and-manipulation-using-cycript-yahoo-weather-app/)  
 
-Part5 分享了一些高级分析技术。分析了如何获得特定类的信息（方法名，实例变量名称），并且如何在运行时修改。
+Part5 分享了一些高级分析技术。分析了如何获得特定类的信息（方法名，实例变量名称），并且如何在运行时修改。   
 
+6）[IOS Application Security Part 6 – New Security Features in IOS 7](http://resources.infosecinstitute.com/ios-application-security-part-6-new-security-features-in-ios-7/)
+
+7）[IOS Application Security Part 7 – Installing and Running Custom Applications on Device without a registered developer account](http://resources.infosecinstitute.com/ios-application-security-part-7-installing-and-running-custom-applications-on-device-without-a-registered-developer-account/)
 <br />
-
+<br />
 ### B）关键数据的保存。 ##
 在本地保存的数据，一般来说，要么:  
 1）存本地db。      
@@ -111,7 +114,7 @@ Part5 分享了一些高级分析技术。分析了如何获得特定类的信�
    iosinfo(iOS技术分享)为好友，会分享iOS开发相关技巧，有时也会发一些我觉得有趣的东西。
 
   
- **点击     **<http://t.cn/zHpnevd>**   查看所有的历史消息。**（微信上打开此URL。
+ **点击     **<http://t.cn/zHpnevd>**   查看所有的历史消息。**（微信上打开此URL）
 
 
 2)  关于我。  
