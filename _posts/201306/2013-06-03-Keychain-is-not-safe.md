@@ -13,7 +13,7 @@ tags:
 一般来说mobile app都需要在本地保存一些较为敏感的数据。如何安全的保存这些数据就是一个值得深入探讨的问题。
 
 Mac OS 可以利用Keychain保存各应用中用户的账号密码，让用户不用重复输入，在iOS中也有Keychain，也可以在应用之间共享数据，只是有些限制，用户无法通过手动控制。
-
+要在社保上
 KeyChain中的所有数据都以key－value的形式进行存储，可以对其进行add、update、get、delete操作。
 
 如果需要在应用里使用keyChain，需要导入Security.framework，keychain的操作接口声明在头文件SecItem.h里。直接使用SecItem.h里方法操作keychain，需要写的代码较为复杂，可以使用已经封装好了的工具类SFHFKeychainUtils，见：<https://github.com/ldandersen/scifihifi-iphone/tree/master/security> 
@@ -65,7 +65,7 @@ jail break 相当于对苹果做签名检查的地方打了个补丁，使得不
 
 
 3）在设备上执行2)中介绍的keychain dumper，就可以得到所有的相关信息。
-但是，要在社保上执行keychain dumper，就需要用chmod 777设置其权限，需要root权限，而jail break之后的默认密码是：alpine。
+但是，要在设备上执行keychain dumper，就需要用chmod 777设置其权限，需要root权限，而jail break之后的默认密码是：alpine。
 
 
 最后可以获得好几个文件，下面是里面的2个例子。（**密码都被我用password字串替换**）
