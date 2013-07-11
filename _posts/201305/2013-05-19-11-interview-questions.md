@@ -30,6 +30,7 @@ tags:
   如果你所在的团队也在找一个很资深的开发者，那么这些技术问题很可能会对你有所帮助。对这些问题的回答会是对应聘者技术深度和广度的一个有效的考察。如果你的技术Leader都不能很好地回答这些问题的话，那你就有麻烦了。
 
 参见：                
-1）我在Facebook的十点经验分享。
-   http://www.nonoidea.com/ 我在facebook的十点经验分享/  
-2）Interview Questions for iOS and Mac Developers。http://blackpixel.com/blog/2013/04/interview-questions-for-ios-and-mac-developers-1.html
+
+1）[我在Facebook的十点经验分享](<http://www.nonoidea.com/ 我在facebook的十点经验分享/>)
+     
+2）[Interview Questions for iOS and Mac Developers](http://blackpixel.com/blog/2013/04/interview-questions-for-ios-and-mac-developers-1.html)。
