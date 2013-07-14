@@ -2,9 +2,9 @@
 layout: post  
 title: Objective-C类初始化:load与initialize  
 categories:  
-- 其他  
+- Programming  
 tags:
-- quora
+- iOS
 ---
 
 在C语言中，main()是程序最早开始启动和初始化的地方。
