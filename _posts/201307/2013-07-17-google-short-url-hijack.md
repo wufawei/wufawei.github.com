@@ -22,7 +22,7 @@ tags:
 ![](http://farm4.staticflickr.com/3673/9305695015_c331146857.jpg)
                       
 <br/>
->
+
 很奇怪，为什么先打开一个新页面（http://51buy.com/）后，google的搜索结果页会跳转到这个(http://www.ipaofu.com/book/shopping)地方呢。
 
 
