@@ -94,25 +94,7 @@ http://www.google.com.hk/aclk?sa=L&ai=CbQJnm5rmUd-fG6GZmQWmv4CwBP6Bj7UF5qqo3miTg
 
 <br />
 
-
-（转载本站文章请注明作者和出处 吴发伟Ted – wufawei.com ，请勿用于任何商业用途）
+（转载本站文章请注明作者和出处，请勿用于任何商业用途）
 <br />
 <br />  
 <br />
-
----------这是分割线----------
-<br />
-
-1) 如果你是因为别人的分享来到这里的，可以到微信，点击查看公共账户，添加
-   iosinfo(iOS技术分享)为好友，会分享iOS开发相关技巧，有时也会发一些我觉得有趣的东西。
-
-2)  关于我。  
-
-新浪微博: [@吴发伟Ted](http://weibo.com/wufawei)
-
-**微信公众账号：iOS技术分享**
-
- **点击     **<http://t.cn/zHpnevd>**   查看所有的历史消息。**（微信上打开此URL）
-
-                 
-![](http://farm3.staticflickr.com/2861/8836295022_023774dd2f_m.jpg)
