@@ -14,12 +14,12 @@ tags:
 
 图：
 
-![](http://farm4.staticflickr.com/3802/9308476572_3ed8dda5a8.jpg)
+![](http://farm4.staticflickr.com/3740/9306568559_38b33553d9.jpg)
 
 
 点击第一个搜索结果，结果页面变成了这样。
 
-![](http://farm4.staticflickr.com/3673/9305695015_c331146857.jpg)
+![](http://farm8.staticflickr.com/7429/9306568847_4df0a06f10.jpg)
                       
 <br/>
 
