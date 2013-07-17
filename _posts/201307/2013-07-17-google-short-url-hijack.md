@@ -65,9 +65,11 @@ http://www.google.com.hk/aclk?sa=L&ai=CbQJnm5rmUd-fG6GZmQWmv4CwBP6Bj7UF5qqo3miTg
     </body>
     </html>
     
-  这里的代码完成什么功能，应该不用解释了。
+  **这里的代码完成的功能，一目了然，除了会打开http://www.51buy.com之外，还会修改parent 窗口为:http://www.ipaofu.com/book/shopping,原来是在这里实现的跳转**。
 
- **3）whois**    
+  **如果是正常搜索结果，打开http://www.51buy.com就结束了，是不会去修改父窗口打开另一个网站的。**
+
+**3）whois**    
 
   http://whois.chinaz.com/
      
