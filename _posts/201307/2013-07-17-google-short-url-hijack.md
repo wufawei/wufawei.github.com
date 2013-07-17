@@ -75,7 +75,7 @@ http://www.google.com.hk/aclk?sa=L&ai=CbQJnm5rmUd-fG6GZmQWmv4CwBP6Bj7UF5qqo3miTg
      
  **4) 进一步分析**  
    我碰到过一次，在google上搜索京东，除了打开京东之外，还会打开另一个网站。
-   打开http://youhuiqq.com/test/test/，
+   打开**http://youhuiqq.com/test/test/**，这个里面还有很多东西，有兴趣的可以去看看里面会执行的跳转。
    
  ![](http://farm4.staticflickr.com/3802/9309047242_5d1ea816ab.jpg)
 
