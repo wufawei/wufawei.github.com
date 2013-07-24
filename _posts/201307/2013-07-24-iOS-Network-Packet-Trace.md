@@ -49,7 +49,7 @@ d)  sudo tcpdump -n -t -i rvi0 -q -A -v tcp | grep "somestring“
 
 3 [TCPDUMP](http://www.tcpdump.org/tcpdump_man.html).
 
-      
+4 [未越狱ios设备的抓包方法](http://fanliugen.com/?p=351) by 樊留根.
 
 <br/>
 <br/>
