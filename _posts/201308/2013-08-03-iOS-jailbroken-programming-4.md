@@ -1,25 +1,23 @@
 ---
 layout: post  
-title: iOS越狱开发（4）－ 总结 
+title: iOS越狱程序开发（4）－ 总结 
 categories:  
 - iOS  
 tags:    
 - security  programming
 ---   
  
-本文是iOS越狱开发系列文章的第4篇。
-
+本文是iOS越狱程序开发系列文章的第4篇。
 本系列包含下面4篇文章:  
-[iOS越狱开发（1）－ 工具篇](http://wufawei.com/2013/08/iOS-jailbroken-programming-1/)        
-[iOS越狱开发（2）－ 构建和部署 ](http://wufawei.com/2013/08/iOS-jailbroken-programming-2/)  
-[iOS越狱开发（3）－ Your first Tweak](http://wufawei.com/2013/08/iOS-jailbroken-programming-3/)   
-[iOS越狱开发（4）－ 总结](http://wufawei.com/2013/08/iOS-jailbroken-programming-4/)
-
+[iOS越狱程序开发（1）－ 工具篇](http://wufawei.com/2013/08/iOS-jailbroken-programming-1/)        
+[iOS越狱程序开发（2）－ 构建和部署 ](http://wufawei.com/2013/08/iOS-jailbroken-programming-2/)  
+[iOS越狱程序开发（3）－ Your First Tweak](http://wufawei.com/2013/08/iOS-jailbroken-programming-3/)   
+[iOS越狱程序开发（4）－ 总结](http://wufawei.com/2013/08/iOS-jailbroken-programming-4/)
 
 
 从前面几篇文章可以看到，开发一个越狱程序是多么的简单。所以介绍这几篇文章，是为了知己知彼，只有我们知道了程序存在的risk，程序可能被hack的方式，才能使得我们在写程序时，写出更健壮，更安全的程序。
 
-之前写过的keychain is not safe指出了在keychain中保存的数据也不是那么的安全，iOS Application Security中更是介绍了如何dump出app、如何动态修改app的方法。
+之前写过的[keychain is not safe](http://wufawei.com/2013/06/Keychain-is-not-safe/)指出了在keychain中保存的数据也不是那么的安全，[iOS Application Security](http://wufawei.com/2013/07/iOS-application-security/)中更是介绍了如何dump出app、如何动态修改app的方法。
 
 这几篇iOS越狱开发系列文章，更是指出了hacker可以hook任意的api，获取我们的敏感信息和数据。
 

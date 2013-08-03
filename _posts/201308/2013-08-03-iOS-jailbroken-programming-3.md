@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: iOS越狱开发（3）－ Your first Tweak  
+title: iOS越狱程序开发（3）－ Your First Tweak  
 categories:  
 - iOS  
 tags:    
@@ -8,14 +8,13 @@ tags:
 ---   
  
 
-本文是iOS越狱开发系列文章的第3篇。
+本文是iOS越狱程序开发系列文章的第3篇。
 
 本系列包含下面4篇文章:  
-[iOS越狱开发（1）－ 工具篇](http://wufawei.com/2013/08/iOS-jailbroken-programming-1/)        
-[iOS越狱开发（2）－ 构建和部署 ](http://wufawei.com/2013/08/iOS-jailbroken-programming-2/)  
-[iOS越狱开发（3）－ Your first Tweak](http://wufawei.com/2013/08/iOS-jailbroken-programming-3/)   
-[iOS越狱开发（4）－ 总结](http://wufawei.com/2013/08/iOS-jailbroken-programming-4/)
-
+[iOS越狱程序开发（1）－ 工具篇](http://wufawei.com/2013/08/iOS-jailbroken-programming-1/)        
+[iOS越狱程序开发（2）－ 构建和部署 ](http://wufawei.com/2013/08/iOS-jailbroken-programming-2/)  
+[iOS越狱程序开发（3）－ Your First Tweak](http://wufawei.com/2013/08/iOS-jailbroken-programming-3/)   
+[iOS越狱程序开发（4）－ 总结](http://wufawei.com/2013/08/iOS-jailbroken-programming-4/)
 
 
 本文是iOS越狱开发系列文章的第3篇。确保你已经读过前面两篇文章。今天的文章将介绍如何给任意的Apple提供的方法打补丁。在这个demo中，我们将要hook Springboard的init方法，然后在iphone启动时显示一个UIAlertView。这个demo不是最酷的，但是这里所使用的方法和模式，可以用来给任何class的任何method打补丁。
