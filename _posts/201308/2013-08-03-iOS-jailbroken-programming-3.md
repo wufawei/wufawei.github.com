@@ -8,6 +8,7 @@ tags:
 ---   
  
 
+本文是iOS越狱开发系列文章的第3篇。
 
 本系列包含下面4篇文章:  
 [iOS越狱开发（1）－ 工具篇](http://wufawei.com/2013/08/iOS-jailbroken-programming-1/)        
