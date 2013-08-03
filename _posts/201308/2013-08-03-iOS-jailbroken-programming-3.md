@@ -143,6 +143,10 @@ WelcomeWagon_FRAMEWORKS = UIKit
 
 ![](http://f.cl.ly/items/3J1W0j0c1F3y081P2D2i/IMG_0001.PNG)
 
+
+<br/>
+#### 8 总结
+
 本文介绍了如何hook Springboard并显示Alert的方法和步骤。
 通过Tweak可以做任何你想做的事情，因为你可以**hook任何你感兴趣的class的method**。
 
