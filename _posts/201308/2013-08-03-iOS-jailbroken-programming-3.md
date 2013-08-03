@@ -20,18 +20,21 @@ tags:
 
 本文是iOS越狱开发系列文章的第3篇。确保你已经读过前面两篇文章。今天的文章将介绍如何给任意的Apple提供的方法打补丁。在这个demo中，我们将要hook Springboard的init方法，然后在iphone启动时显示一个UIAlertView。这个demo不是最酷的，但是这里所使用的方法和模式，可以用来给任何class的任何method打补丁。
 
+<br/>
 #### **1 准备工作**
 
 你首先还需要下载Saurik的libsubstrate.dylib，然后copy到/opt/theos/lib
 
 [下载libsubsrate.dylib](http://www.mediafire.com/?2upm53uzzj0488u)
 
+<br/>
 #### **2 iOS 头文件**
 
 很可能theos本身就自带了你所需要的头文件，但是，如果你编译程序的时候提示你头文件相关的问题，那你就需要准备相关的头文件了。要么从设备上dump头文件，要么google，建议你先google一下，看其他人有没已经提供了这些头文件。
 
 一旦你有这些头文件，记得把它们放在/opt/theos/include。
 
+<br/>
 #### **3 创建项目**
 
 执行
@@ -64,6 +67,7 @@ $THEOS/bin/nic.pl
     Instantiating iphone/tweak in welcomewagon/…
     Done.
 
+<br/>
 #### **4 The Tweak File**
 
 一旦你创建了项目，你会发现Theos生成了一个叫做Tweak.xm的文件，这是个特殊的文件，hook的相关代码就将写在这个文件。
@@ -83,7 +87,7 @@ $THEOS/bin/nic.pl
 当在一个method内部的时候，%orig会调用原来的方法（original method)。你甚至可以给原来的method传递参数，例如：%orig(arg1,arg2)。如果你不调用%orig，原来的方法就绝对不会被调用。所以，如果你hook了SpringBoard的init方法，但是没有调用%orig。那么你的iphone就将不可用，除非你通过ssh删除你的app。
 
 
-
+<br/>
 #### 5  Hooking into Springboard ##
 
 打开Tweak.xm，然后加上代码：
@@ -115,7 +119,7 @@ $THEOS/bin/nic.pl
 最后，显示一个UIAlertView。
 
 
-
+<br/>
 #### 6 添加Framework
 
 如果你直接编译，，会得到如下的提示信息：
@@ -129,7 +133,7 @@ $THEOS/bin/nic.pl
 WelcomeWagon_FRAMEWORKS = UIKit
 
 
-
+<br/>
 #### 7 Building, Packaging, Installing.
 
 在前面的系列中介绍了如何编译，打包和安装，依次执行下面的命令即可。
@@ -150,7 +154,7 @@ WelcomeWagon_FRAMEWORKS = UIKit
 
 [Beginning Jailbroken iOS Development – Your First Tweak](http://brandontreb.com/beginning-jailbroken-ios-development-your-first-tweak)
 
-
+<br/><br/>
 （转载本站文章请注明作者和出处 吴发伟Ted – wufawei.com ，请勿用于任何商业用途）
 
 ---------这是分割线----------

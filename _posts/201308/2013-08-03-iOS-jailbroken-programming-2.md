@@ -20,7 +20,7 @@ tags:
 开发越狱程序和日常开发的iOS程序很相似，不过，越狱程序能做更强大的事情。你的设备越狱之后，你就能够hook进Apple提供的几乎所有的class，来控制iPhone/iPad的功能。
 本文将介绍如何将于开发出来的越狱程序构建和部署到真实设备上去，建议先看系列文章的第一篇-工具篇。
 
-
+<br/>
 #### **介绍**
 
 工具篇中介绍了如何创建一个新的工程。下面是一个创建jailbroken 应用程序的例子：
@@ -49,6 +49,8 @@ tags:
 5. Resources：包含info.plist文件等
 6. RootViewController.h/mm
 
+
+<br/>
 #### **Makefile**
 
 这里重点介绍下：  
@@ -58,7 +60,7 @@ tags:
     [applicationName]_FILES = main.m firstdemoApplication.mm RootViewController.mm  
     [applicationName]_FRAMEWORKS = UIKit Foundation QuartzCore AudioToolbox CoreGraphics
 
-
+<br/>
 #### **设置环境变量**
 
 打开terminal然后输入
@@ -69,10 +71,10 @@ tags:
 
 第二行定义你当前的SDK版本，我本机装的是7.0，最后一行定义你的设备的ip地址。
 
-
+<br/>
 #### **构建工程**
 
-
+<br/>
 **第一个命令:make**
 
     $ make
@@ -84,7 +86,7 @@ tags:
      Stripping firstdemo…
      Signing firstdemo…
 
-
+<br/>
 **第二个命令：make package**
 
 
@@ -95,7 +97,7 @@ tags:
      Copying resource directories into the application wrapper…
     dpkg-deb: building package ‘com.yourcompany.firstdemo’ in ‘/Users/author/Desktop/firstdemo/com.yourcompany.firstdemo_0.0.1-1_iphoneos-arm.deb’.
 
-
+<br/>
 **第三个命令：make install**
 
 
@@ -121,11 +123,10 @@ tags:
 
 
 
-
+<br/><br/>
 参考文献：
 
 [Beginning Jailbroken iOS Development – Building And Deployment](http://brandontreb.com/beginning-jailbroken-ios-development-building-and-deployment)
-
 
 （转载本站文章请注明作者和出处 吴发伟Ted – wufawei.com ，请勿用于任何商业用途）
 

@@ -22,11 +22,14 @@ tags:
 #### **Theos**
 
 @DHowett的theos大幅简化了编写越狱程序的流程。DHowett介绍了如何再Mac和Linux上开发iOS越狱程序，本文将只介绍如何在Mac上开发。
+<br/>
+
 
 #### Step1:安装iOS SDK。 ####
 
 <http://developer.apple.com/devcenter/ios/index.action>
 
+<br/>
 #### Step2:设置环境变量
 
 
@@ -36,7 +39,7 @@ tags:
 
 通过在命令行执行 echo $THEOS可以看到这个变量是否正确设置。每次你打开terminal都需要重新设置一下。
 
-
+<br/>
 #### Step3:下载theos
 
 
@@ -46,6 +49,7 @@ tags:
 
 会把theos下载到Step2所设置的目录中，会提示你输入admin的密码。
 
+<br/>
 #### Step4:下载ldid
 
 ldid的作用是模拟给iPhone签名的流程，使得你能够在真实的设备上安装越狱的apps/hacks。
@@ -68,16 +72,14 @@ ldid的作用是模拟给iPhone签名的流程，使得你能够在真实的设�
 
 由于伟大的墙，下载这个你需要自备梯子。
 
-
-
-
+<br/>
 #### Step5:安装dkpg
 
 Dpkg能够把你的app打包成Debian Package,可以分发的Cydia的存储目录中。
 
     sudo port install dpkg.
 
-
+<br/>
 #### Step6:创建新的项目
 
 theos使用一个叫做nic(new instance tool)的工具来创建新的工程。执行下面的命令：
@@ -110,7 +112,7 @@ theos使用一个叫做nic(new instance tool)的工具来创建新的工程。�
 
 下面将继续介绍如何构建和部署到真实设备上去。
 
-
+<br/>
 <br/>
 
 参考文献：
@@ -118,7 +120,6 @@ theos使用一个叫做nic(new instance tool)的工具来创建新的工程。�
 [Beginning Jailbroken iOS Development – Getting The Tools](http://brandontreb.com/beginning-jailbroken-ios-development-getting-the-tools)
 
 <br/>
-
 
 （转载本站文章请注明作者和出处 吴发伟Ted – wufawei.com ，请勿用于任何商业用途）
 
