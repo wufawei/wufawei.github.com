@@ -10,10 +10,11 @@ tags:
 本文是iOS越狱开发系列文章的第2篇。
 
 本系列包含下面4篇文章:  
-iOS越狱开发（1）－ 工具篇        
-iOS越狱开发（2）－ 构建和部署   
-iOS越狱开发（3）－ Your first Tweak   
-iOS越狱开发（4）－ 应用篇
+[iOS越狱开发（1）－ 工具篇](http://wufawei.com/2013/08/iOS-jailbroken-programming-1/)        
+[iOS越狱开发（2）－ 构建和部署 ](http://wufawei.com/2013/08/iOS-jailbroken-programming-2/)  
+[iOS越狱开发（3）－ Your first Tweak](http://wufawei.com/2013/08/iOS-jailbroken-programming-3/)   
+[iOS越狱开发（4）－ 总结](http://wufawei.com/2013/08/iOS-jailbroken-programming-4/)
+
 
 
 开发越狱程序和日常开发的iOS程序很相似，不过，越狱程序能做更强大的事情。你的设备越狱之后，你就能够hook进Apple提供的几乎所有的class，来控制iPhone/iPad的功能。

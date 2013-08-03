@@ -10,10 +10,11 @@ tags:
 本文是iOS越狱开发系列文章的第4篇。
 
 本系列包含下面4篇文章:  
-iOS越狱开发（1）－ 工具篇        
-iOS越狱开发（2）－ 构建和部署   
-iOS越狱开发（3）－ Your first Tweak   
-iOS越狱开发（4）－ 总结
+[iOS越狱开发（1）－ 工具篇](http://wufawei.com/2013/08/iOS-jailbroken-programming-1/)        
+[iOS越狱开发（2）－ 构建和部署 ](http://wufawei.com/2013/08/iOS-jailbroken-programming-2/)  
+[iOS越狱开发（3）－ Your first Tweak](http://wufawei.com/2013/08/iOS-jailbroken-programming-3/)   
+[iOS越狱开发（4）－ 总结](http://wufawei.com/2013/08/iOS-jailbroken-programming-4/)
+
 
 
 从前面几篇文章可以看到，开发一个越狱程序是多么的简单。所以介绍这几篇文章，是为了知己知彼，只有我们知道了程序存在的risk，程序可能被hack的方式，才能使得我们在写程序时，写出更健壮，更安全的程序。
