@@ -9,9 +9,9 @@ tags:
  
 **iMessage安全吗？**
 
-Apple说它非常安全，从发送方到接收方是一个了端到端的加密方案。那么iMessage真的安全吗，苹果能不能查看你的聊天内容呢？
+Apple说它非常安全，从发送方到接收方采用了端到端的加密方案。那么iMessage真的安全吗，苹果能不能查看你的聊天内容呢？
 
-苹果是这样回到的：
+苹果是这样说的：
 “ There are certain categories of information which we do not provide to law enforcement or any other group because we choose not to retain it. For example, conversations which take place over iMessage and FaceTime are protected by end-to-end encryption so **no one but the sender and receiver** can see or read them.**Apple cannot decrypt that data**.”
 
 
