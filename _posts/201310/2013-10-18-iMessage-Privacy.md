@@ -16,7 +16,7 @@ Apple说它非常安全，发送方到接收方采用了端到端的加密方案
 
 
 事实并不是这么简单。
-所有与苹果服务器的通信都是通过SSL的，然后，通过**MITM**可以拦截数据，这说明没有进行SSL Pinning（[通过SSL Pining提供iOS SSL通信的安全](http://wufawei.com/2013/05/SSL-Pining/)），更让人惊讶的是，竟然发送明文密码。
+所有与苹果服务器的通信都是通过SSL的，然而，通过**MITM**可以拦截数据，这说明没有进行SSL Pinning（[通过SSL Pining提供iOS SSL通信的安全](http://wufawei.com/2013/05/SSL-Pining/)），更让人惊讶的是，竟然发送明文密码。
 
 POST包：   
 
@@ -33,7 +33,7 @@ POST包：
     'content-type': application/x-apple-plist,
     'x-ds-client-id': t:3A5DC02C47249FC50EF0FF1B8CF3073C9EBD0668
 
-收到的数据：
+POST的数据：
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
