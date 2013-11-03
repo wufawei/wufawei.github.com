@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: Sunday 2013.11.03: articles summary
+title: 本周看过文章汇总   
 categories:  
 - summary  
 tags:    
