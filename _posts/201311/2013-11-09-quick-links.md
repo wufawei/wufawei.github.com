@@ -20,12 +20,16 @@ tags:
 
 * [CONTROLLING CHAOS: Twitter's Wild Ride From Doodle To IPO][4] 介绍了Twitter背后不为人知的故事。
 
-*  我同事[Lings-H][5] 发现微博和微信SDK分享的问题：
+*  我同事[Lings-H][5] 发现微博和微信SDK分享的问题：  
 ```
 微博SDK和微信SDK在iOS7上分享时，直接就把系统剪贴板里面原有的内容给清空了，这有点过了吧，好歹把用户自己存在剪贴板里的内容给恢复一下啊。
 ```
 
-
+* 使用goagent的时候出现：    
+``` 403. That’s an error. 	
+Your client does not have permission to get URL /2 from this server. That’s all we know.
+```
+这个时候，[你需要升级goagent了][6]。
 
 
 
@@ -36,3 +40,4 @@ tags:
 [3]: http://neglectedpotential.com/wp-content/uploads/iOS-Testing-Mind-Map-1.2.png
 [4]: http://www.businessinsider.com/twitter-story-2013-10
 [5]: http://weibo.com/yuhaohe
+[6]: http://tieba.baidu.com/p/2692466053
