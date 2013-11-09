@@ -1,16 +1,12 @@
 ---
 layout: post  
-title: iOS interview questions   
+title: iOS Interview Questions    
 categories:  
 - iOS  
 tags:    
 - iOS
 ---   
  
-
-# iOS Interview Questions 
-
-------
  [iOS Interview Questions][1] 列出很很多iOS相关的面试问题，把这些问题过一遍，有助于深化对iOS的理解。
 
 * Explain method swizzling. When you would use it?，参见：[Monkey Patching iOS with Swizzling][2]
