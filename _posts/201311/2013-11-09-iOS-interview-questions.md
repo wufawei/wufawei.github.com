@@ -2,9 +2,9 @@
 layout: post  
 title: iOS interview questions   
 categories:  
-- summary  
+- iOS  
 tags:    
-- summary
+- iOS
 ---   
  
 
