@@ -89,7 +89,10 @@ UIApp.keyWindow.rootViewController
 所以，什么是messages属性呢？首先我们必须要知道什么时候分发表（dispatch table）.分发表是包含了很多条目，这些条目关联方法的selector和方法在类的地址。
 让我们看一下这个从苹果官方截图的图片。
 
+
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat11.png)
+
+
 
 > “给一个对象发送消息的时候，消息函数会根据对象的isa指针到类结构中的分发表查找对方的方法选择器（method selector）。如果没有找到，那objc_msgSend用这个指针找到其superclass，然后查找superclass
 > 的分发表。连续的查找失败会让objc_msgSend一直依次查找类层次直到NSObject。一旦它定位到选择器（selector），objc_msgSend就调用表中的这个方法并且把它接收的对象数据结构传递给它。
@@ -98,6 +101,8 @@ UIApp.keyWindow.rootViewController
 > 
 > 现在，很容易就能猜到messages属性是能发给类实例或者类本身的方法的消息列表。这将是一个非常大的列表，因为isa指针会选择从它父类一直到NSObject的消息。上面有一行值得特别注意。
 > “这就是在运行时选择方法实现的方法。或者用面向对象编程的术语，这些方法和消息是动态绑定的。”
+
+
 
 
 因为方法和消息是在运行时绑定的，所以我们能够更改某个特定消息的方法实现。
