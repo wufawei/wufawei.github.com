@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: iOS应用程序安全(5)-用Cycript对Yahoo天气应用进行运行时分析   
+title: iOS应用程序安全(5)-用Cycript进行运行时分析和操作的高级技巧(Yahoo天气应用)   
 categories:  
 - iOS  
 tags:    
