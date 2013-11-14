@@ -9,7 +9,8 @@ comments: yes
 
 ####个人简介
 
-毕业后加入趋势科技（Trend Micro)。    
+大学和研究生专业是信息(网络)安全。   
+毕业后加入安全公司趋势科技（Trend Micro)。   
 目前在杭州，在阿里巴巴集团天猫做iOS开发工程师。     
 
 邮箱是ted.wu@qq.com，[@吴发伟Ted](http://weibo.com/wufawei)     
