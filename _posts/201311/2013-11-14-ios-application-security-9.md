@@ -19,6 +19,7 @@ Snoop-it提供的功能可以从对其[官方地址][1]的截图看到。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/071813_1302_IOSApplicat1.png)
 
+<br>
 ##安装
 （备注：目前已经可以通过在Cydia上添加源，然后直接下载安装了。） 
 要安装Snoop-it到你的设备上。你不得不下载deb包，然后用sftp上传到你的设备上。在命令行下用命令dpkg -i [packageName]来安装Snoop-it到你的设备上。
@@ -51,6 +52,7 @@ Snoop-it，选择我们要分析的应用，在我这，我将要选择MethodSwi
 
 正如你看到的，现在你有一个很漂亮的界面，现在你可以对这个应用进行详尽的安全评估了。
 
+<br>
 ##分析
 
 在左边，在Analysis下面，点击Objective-C Classes。在右边你就看到所有的类信息，比如属性和方法名称。
@@ -88,6 +90,7 @@ Snoop-it的另一个牛逼功能是我们可以切换到任意的view controller
 
 你能够通过点击 Reset display返回。这个功能能够让我们把view controller与对应的view关联起来。我太喜欢Snoop-it的这个功能了。
 
+<br>
 ##运行时修改
 
 
@@ -106,6 +109,7 @@ Snoop-it支持多种运行时修改，包括修改你的硬件标识符比如Mac
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/071813_1302_IOSApplicat17.png)
 
+<br>
 ##监控
 Snoop-it允许你查看那些文件和目录目前正被运行访问。为了达到这个目的，请点击Monitoring下面的 Filesystem.这个功能特别有用，尤其是当应用正在往db写数据的时候，这个
 功能能够让你找出db文件的名字。你也可以双击它们，然后下载到你的机器上再分析。
