@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: iOS应用程序安全（1)- 搭建一个移动渗透测试平台   
+title: iOS应用程序安全(1)-搭建一个移动渗透测试平台   
 categories:  
 - iOS  
 tags:    
@@ -148,11 +148,16 @@ class-dump-z已经成功安装。
 
 ![](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/042413_1342_IOSApplicat20.png)
 
+<br/>
 
 ### 总结
 
+<br/>
+
+
 本文我们学习了如何越狱设备上搭建一个移动审计环境。在接下来的文章中我们将介绍如何使用class-dump-z来分析应用的类信息（class information）。
 
+<br/>
 本文原文是 [IOS Application security Part 1 – Setting up a mobile pentesting platform][4]
 
 [1]: http://evasi0n.com/
