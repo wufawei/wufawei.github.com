@@ -167,6 +167,6 @@ tags:
 <br/>
 本文原文是 [IOS Application security Part 2 – Getting class information of IOS apps][3]
 
-[1]: http://wufawei.com/2013/11/ios-application-security%281%29/
+[1]: http://wufawei.com/2013/11/ios-application-security-1/
 [2]: http://www.macroplant.com/iexplorer/download-ie3-mac.php
 [3]: http://resources.infosecinstitute.com/ios-application-security-part-2-getting-class-information-of-ios-apps/
