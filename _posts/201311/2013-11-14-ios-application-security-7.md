@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: iOS应用程序安全(7)-安装app到设备上不要证书的方法  
+title: iOS应用程序安全(7)-不用证书安装应用到设备的方法  
 categories:  
 - iOS  
 tags:    
