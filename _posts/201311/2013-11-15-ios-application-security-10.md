@@ -142,8 +142,8 @@ Snapchat的用户名称。
 ![](http://resources.infosecinstitute.com/wp-content/uploads/072913_1331_IOSApplicat17.png)
 
 
-Plist文件也可能包含机密信息，比如用户名和密码。有一个事情需要特别注意的就是，任何人都可以从设备中导出plist文件，即使这个设备没有越狱。
-你也可以从用户的iTunes 备份中导出这些plist文件。过去数年，有开发者把机密数据存放在plist文件中，这是不正确的做法。
+Plist文件也可能包含机密信息，比如用户名和密码。**有一个事情需要特别注意的就是，任何人都可以从设备中导出plist文件，即使这个设备没有越狱。
+你也可以从用户的iTunes 备份中导出这些plist文件。过去数年，有开发者把机密数据存放在plist文件中，这是不正确的做法。**
 Linkedin iOS应用被发现的一个漏洞就是它把用户的认证信息存放在plist文件中，你可以到这（http://blog.scoopz.com/2012/04/07/linkedin-ios-app-also-vulnerable-to-plist-identity-theft/）找到更多信息。
 
 如果你想在terminal看这些plist文件，你可以先用工具plutil把它转化为xml格式，命令是  plutil -covert xml1 [filename]。  首先用下面的2个命令找到设备上所有的plist文件。
