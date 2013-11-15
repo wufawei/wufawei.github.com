@@ -106,7 +106,7 @@ Sogeti data protection tools，最主要的原因就是它提供了许多我们�
  
 你的设备看起来会像下面的图这样。一段时间之后，你会在屏幕之上看到一个大大的ok说明漏洞利用程序已经成功执行并且这个定制的ramdisk也已经开启了。
 
-![](http://resources.infosecinstitute.com/wp-content/uploads/082213_1252_IOSApplicat18.png)   
+![](http://resources.infosecinstitute.com/wp-content/uploads/082213_1252_IOSApplicat19.jpg)   
 
 data protection tools中也包含一个python实用工具叫做 usbmux，现在我们可以用它通过ssh来访问设备。让我们用python脚本 tcprelay 先建立中继转发。
 
