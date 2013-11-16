@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: iOS应用程序安全(17)-用Introspy对iOS应用进行黑盒测试 
+title: iOS应用程序安全(17)-使用Introspy对iOS应用进行黑盒测试 
 categories:  
 - iOS  
 tags:    
