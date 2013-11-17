@@ -121,7 +121,5 @@ Part5 分享了一些高级分析技术。分析了如何获得特定类的信�
 
 **微信公众账号：iOS技术分享**
 
- **点击     **<http://t.cn/zHpnevd>**   查看所有的历史消息。**（微信上打开此URL）
-
                  
-![](http://farm3.staticflickr.com/2861/8836295022_023774dd2f_m.jpg)
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)
