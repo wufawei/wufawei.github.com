@@ -160,6 +160,12 @@ class-dump-z已经成功安装。
 <br/>
 本文原文是 [IOS Application security Part 1 – Setting up a mobile pentesting platform][4]
 
+
+<br>
+微信公众账号：**iOS技术分享**
+
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)
+
 [1]: http://evasi0n.com/
 [2]: http://www.redsn0w.us/
 [3]: https://code.google.com/p/networkpx/wiki/class_dump_z
