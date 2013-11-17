@@ -13,6 +13,8 @@ comments: yes
 毕业后加入安全公司趋势科技（Trend Micro)。   
 目前在杭州，在阿里巴巴集团天猫工作。     
 
+之前在博客园也写了些文章，点[此](http://cnblogs.com/wufawei)查看。
+
 邮箱是ted.wu@qq.com，[@吴发伟Ted](http://weibo.com/wufawei)     
 
 来往账号：**wfw128**
