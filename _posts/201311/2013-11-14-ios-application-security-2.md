@@ -10,13 +10,14 @@ tags:
 
 ###介绍
 
-你是否下载过非常cool的app（不管它是预装应用还是从App store下载的应用），然后想知道它是如何编写的，它使用了哪些第3方库呢？是否想知道这个app内部代码是如何组织的？你是否想到有没有可能导出它内部的图片（images）、plist文件？如果答案是想的话，那你来对地方了，本文就将解答这些信息。
+你是否下载过非常cool的app（不管它是预装应用还是从App store下载的应用），然后想知道它是如何编写的，它使用了哪些第3方库呢？是否想知道这个app内部代码是如何组织的？你是否想导出它内部的图片（images）、plist文件？如果答案是想的话，那你来对地方了，本文就将解答这些信息。
 
 
-本文我们将分析app（不管它是预装应用还是从App store下载的应用）内部的类（class）是如何使用的，它的view controller使用的view的名称，它内部使用的库，甚至更复杂的，例如变量和方法的名称。我们将解密（decrypt）从App store下载的应用，导出它所有的image、plist文件。
+本文我们将分析应用（不管是预装应用还是从App store下载的应用）内部的类（class）是如何使用的，它的view controller使用的view的名称，它内部使用的库，甚至更复杂的，例如变量和方法的名称。我们将解密（decrypt）从App store下载的应用，导出它所有的image、plist文件。
 
 点击[此][1]查看上一篇文章。
 
+<br>
 ###导出设备上预装应用的类信息
 
 现在我们能够分析应用的类信息了，先试试导出Apple的Maps应用。第一步是定位Apple Maps应用的可执行文件的位置。
@@ -39,7 +40,7 @@ tags:
 ![](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/042613_1143_IOSApplicat4.png)
 
 
-你会在命令行看到太多输出， 最好是输出到一个文件，这里我们把它输出到名叫class-dump-Maps的文件。
+你会在命令行看到太多输出，最好是输出到一个文件，这里我们把它输出到名叫class-dump-Maps的文件。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/042613_1143_IOSApplicat5.png)
 
@@ -54,8 +55,7 @@ tags:
 ![](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/042613_1143_IOSApplicat7.png)
 
 
-
-我们从接口文件看到代码是如何设计的。例如，在这你可以看到一个nfoCardController。或许你已经猜到，当我们点击下面图片中的位置信息的向右剪头的时候，就是这个VC用来展示这个地址的更多信息的。
+我们从接口文件看到代码是如何设计的。例如，在这你可以看到一个InfoCardController。或许你已经猜到，当我们点击下面图片中的位置信息的向右箭头的时候，就是这个VC用来展示这个地址的更多信息的。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/042613_1143_IOSApplicat8.png)
 
@@ -65,31 +65,33 @@ tags:
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/042613_1143_IOSApplicat9.png)
 
-如果你看到这个图以及上面到处的类信息，你可以很容易的知道当你点击上面的按钮的时候，哪些对应的方法会被调用。
-例如，如果你点击了“Direction to here”, 那
--(void)_directionsTo:(id)to person:(void*)person property:(int)property identifier:(int)identifier;
+如果你看到这个图以及上面导出的类信息，你可以很容易的知道当你点击上面的按钮的时候，哪些对应的方法会被调用。例如，如果你点击了“Direction to here”, 那
+
+`-(void)_directionsTo:(id)to person:(void*)person property:(int)property identifier:(int)identifier;`
+
 这个方法会被调用。
 
 类似的，如果点击了“Add to Bookmarks” , 那
--(void)_addToBookmarks:(id)bookmarks person:(void*)person property:(int)property identifier:(int)identifier;
+
+`-(void)_addToBookmarks:(id)bookmarks person:(void*)person property:(int)property identifier:(int)identifier;`
+
 这个方法会被调用。 
 
 你也可以从这个应用里找出很多其他信息，例如有个UserLocationSearchResults继承自SearchResult。
+
 ![](http://resources.infosecinstitute.com/wp-content/uploads/042613_1143_IOSApplicat10.png)
 
 
 你能获得多少信息，完全在于你的好奇心有多少！
 
+<br>
 # 导出从App store下载的app的类信息
 
+如果你想分析从App store下载的app，有2个重要的事情你要先知道：  
+* 这些应用存放在另一个地方，/var/mobile/Applications/  
+* 和预装的app不同，这些应用是加密了的，因此你首先需要解密一下。
 
-如果你想分析从App store下载的app，有2个重要的事情你要先知道：
-
-  这些应用存放在另一个地方，/var/mobile/Applications/
-  和预装的app不同，这些应用是加密了的，因此你首先需要解密一下。
-
-为了解密这些应用，我们讲使用一个叫做Clutch的命令行工具。请注意提供Clutch的Hackuous已经于数月前被关闭。
-但是在网上能够找到Clutch的可执行文件。
+为了解密这些应用，我们将使用一个叫做Clutch的命令行工具。请注意提供Clutch的Hackuous已经于数月前被关闭。但是在网上能够找到Clutch的可执行文件。
 
 如果你已经下载到了Clutch，现在要做的事情就是把它上传到你的越狱设备上。可以使用sftp，使用的方法如图：
 
@@ -116,22 +118,21 @@ tags:
 
 ![](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/042613_1143_IOSApplicat15.png)
 
-一旦导出完成，你可以退出ssh，然后用sftep登录并且下载class-info-Facebook文件。
+一旦导出完成，你可以退出ssh，然后用sftp登录并下载class-info-Facebook文件。
 
 ![](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/042613_1143_IOSApplicat16.png)
 
 
-现在你可以用文本编辑器查看这个文件。例如，这里有个名叫FBFacebookRequestSender的协议用来发送异步请求，并且有用来验证session是否有效。
+现在你可以用文本编辑器查看这个文件。例如，这里有个名叫FBFacebookRequestSender的协议用来发送异步请求，并且有一个方法用来验证session是否有效。
 
 ![](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/042613_1143_IOSApplicat17.png)
 
 
 
-
+<br>
 ###从应用获得图片和其他文件
 
-
-正如前文讨论的，你可以使用sftp从应用中下载你需要的所有文件。不过，存在更方便的方法来下载文件，例如使用[iExplorer][2]，从官方网站上下载。下载安装之后打开，确保你的设备通过USB连接到系统。
+正如前文讨论的，你可以使用sftp从应用中下载你需要的所有文件。不过，有更方便的方法来下载文件，例如使用[iExplorer][2]。从其官方网站上下载，安装之后打开它，确保你的设备通过USB连接到系统。
 
 ![](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/042613_1143_IOSApplicat18.png)
 
@@ -155,13 +156,14 @@ tags:
 <br/>
 ###总结
 
-在本文的前两部分，我们学到了如何在越狱设备上搭建一个移动审计环境。然后我们学到了如何到处任意应用的类信息，利用类信息来学习理解代码的手机和内部是如何工作的。我们也学到了如何解密和审计从App store下载的应用。我们也学到了如何使用sftp和iExplorer来下载上传文件。
+在本文的前两部分，我们学习了如何在越狱设备上搭建一个移动审计环境。然后我们学到了如何导出任意应用的类信息，利用类信息来学习理解代码的设计和内部是如何工作的。我们也学到了如何解密和审计从App store下载的应用。我们也学到了如何使用sftp和iExplorer来下载、上传文件。
 
 通过使用class-dump-z导出类信息, 能够获得所有的调用方法。有没有可能通过某种方式来进行运行时的修改呢？
+
 例如，如果一个方法如(BOOL)isFacebookSessionValid 在某种情况下返回false，是否有可能操作应用，使得它返回YES，因此让应用去做一些未知的事情？进一步的，是否有可能创建我们自己的方法并且在isFacebookSessionValid 执行时执行我们自己的方法呢？
 是否有可能在运行时、或者某个特定指令之后修改一个应用的实例变量呢？
 
-这个答案是：可以（YES）。我们将在接下来的文章中学习。
+**这个答案是：可以（YES）**。我们将在接下来的文章中学习。
 
 
 <br/>
