@@ -27,7 +27,7 @@ tags:
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat3.png)
 
-用户名和密码是 admin:password.登录后可以进入管理页面。
+用户名和密码是 admin:password。登录后可以进入管理页面。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat4.png)
 
@@ -43,14 +43,12 @@ UIApp.keyWindow.rootViewController
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat6.png)
 
-既然我们在应用中看到的第一个视图就是这个登录页面，我们可以确定负责显示这个视图的view controller是我们用前
-一个命令找到的navigation controller的一部分。我们可以用navigation controller的visibleViewController属性来找到当前的视图。
+既然我们在应用中看到的第一个视图就是这个登录页面，我们可以确定负责显示这个视图的view controller是我们用前一个命令找到的navigation controller的一部分。我们可以用navigation controller的visibleViewController属性来找到当前的视图。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat7.png)
 
 
-完美。现在让我们写个函数打印出该view controller的所有方法吧。这个方法是从Cycript技巧页面拿过来用的。我建议你仔细看看
-这个页面，能发现很多不错的代码。
+完美。现在让我们写个函数打印出该view controller的所有方法吧。这个方法是从Cycript技巧页面拿过来用的。我建议你仔细看看这个页面，能发现很多不错的代码。
 
 下面就是我用的代码。
 
@@ -76,7 +74,6 @@ UIApp.keyWindow.rootViewController
 
 获取方法名称的另一个方法就是使用isa.messages属性。根据苹果的[官方文档][3]，isa是一个指向类结构的指针。
 
-
 下面是从同一页摘取的文字。
 
 > “当一个新对象创建的时候，其内存会被分配，实例变量会被初始化。在对象的变量里面第一个就是一个指向它的类对象的指针。这个指针，叫做isa, 使得
@@ -86,8 +83,8 @@ UIApp.keyWindow.rootViewController
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat10.png)
 
-所以，什么是messages属性呢？首先我们必须要知道什么时候分发表（dispatch table）.分发表是包含了很多条目，这些条目关联方法的selector和方法在类的地址。
-让我们看一下这个从苹果官方截图的图片。
+所以，什么是messages属性呢？首先我们必须要知道什么是分发表（dispatch table）。分发表包含了很多条目，这些条目关联方法的selector和方法在类的地址。
+让我们看一下从苹果官方的截图。
 
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat11.png)
@@ -124,7 +121,7 @@ UIApp.keyWindow.rootViewController
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat15.png)
 
-方法 validateLogin看起来很有趣。让我们看看class-dump-z输出的关于这个方法的信息。如果你对class-dump-z不熟悉，请参看本系列的[第2篇文章][4]。
+方法validateLogin看起来很有趣。让我们看看class-dump-z输出的关于这个方法的信息。如果你对class-dump-z不熟悉，请参看本系列的[第2篇文章][4]。
 
 下面就是我们从class-dump-z的输出中找到的关于ViewController的相关信息。
 
@@ -137,7 +134,7 @@ UIApp.keyWindow.rootViewController
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat17.png)
 
 
-因此，R.H.S是一个javascript函数，总是返回true。让我们现在点击应用的登录页面的Login Method 1。
+因此，R.H.S （Right Hand Side）是一个javascript函数，总是返回true。让我们现在点击应用的登录页面的Login Method 1。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat18.png)
 
@@ -146,20 +143,17 @@ UIApp.keyWindow.rootViewController
 <br>
 ##一些其他有趣的事情。
 
-现在我们看到method swizzling是如何工作的，去了解下绕过这个验证的其他方法也会非常有趣。
-从class-dump-z的输出结果，我们可以看到一旦validateLogin返回TRUE。方法pushLoginPage就会被调用。其他一些页面可能叫做
-pushUserPage, 或者pushLoginSuccessfulPage等等。我们不必需要验证一定要是TRUE。我们可以自己调用这个方法。
+现在我们看到method swizzling是如何工作的，去了解下绕过这个验证的其他方法也会非常有趣。从class-dump-z的输出结果，我们可以看到一旦validateLogin返回TRUE。方法pushLoginPage就会被调用。其他一些页面可能叫做pushUserPage, 或者pushLoginSuccessfulPage等等。我们不必需要验证一定要是TRUE。我们可以自己调用这个方法。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1533_IOSApplicat19.png)
 
 因为这是个实例方法，我们通过UIApp.keyWindow.rootViewController.visibleViewController 得到实例。请注意这样做可能导致crash，因为后续被push进的view controller
-可能对输入的用户名和密码有依赖。如果你想挑战一下，不妨试试绕过Login Method 2.随后的文章，我们会讨论如何绕过它。
+可能对输入的用户名和密码有依赖。如果你想挑战一下，不妨试试绕过Login Method 2。我们会在随后的文章讨论如何绕过它。
 
 <br>
 ##总结
 
-本文我们学习了如何利用Cycript来进行method swizzling。随后我们将讨论更多自动化的技巧和更好的工具。我们将看看
-如何在运行时使用gdb和otool来获得其他信息。
+本文我们学习了如何利用Cycript来进行method swizzling。随后我们将讨论更多自动化的技巧和更好的工具。我们将看看如何在运行时使用gdb和otool来获得其他信息。
 
 <br/>
 本文原文是 [IOS Application Security Part 8 – Method Swizzling using Cycript][5]

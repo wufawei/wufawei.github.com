@@ -9,10 +9,9 @@ tags:
 
 ##引言
 
-通常情况下，如果你要在设备上测试应用，你需要花99美元每年注册成为开发者。对于想要学习iOS应用安全的人来说，
-能够再设备上运行并测试应用非常重要。对于不想在app store发布任何程序的人来说，每年99美元并不值得。本文我们将看看在没有注册成为开发者账号的情况下，如何在越狱设备上构建和安装应用。在接下来的文章中，我们将看看如何在设备上运行我们自己的应用，RNA好用Cycript来做method swizzling和其它一些技巧。
+通常情况下，如果你要在设备上测试应用，你需要每年花99美元注册成为开发者。对于想要学习iOS应用安全的人来说，能够在设备上运行并测试应用非常重要。对于不想在app store发布任何程序的人来说，每年99美元并不值得。本文我们将看看在没有注册成为开发者账号的情况下，如何在越狱设备上构建和安装应用。在接下来的文章中，我们将看看如何在设备上运行我们自己的应用，使用Cycript来做method swizzling和其它一些技巧。
 
-本文将使用Xcode 4.5.2，设备是iOS5.1的系统。同样的技巧可能在其他版本的的iOS或者Xcode有效，但是也不一定有效。如果你在运行应用的时候遇到同样的问题，请留言，我会尽快回复。
+本文将使用Xcode 4.5.2，设备是iOS5.1的系统。同样的技巧可能在其他版本的的iOS或者Xcode有效，但是也不一定。如果你在运行应用的时候遇到同样的问题，请留言，我会尽快回复。
 
 第一步是创建一个自签名的证书。我们将使用这个证书来签名我们的应用。
 
@@ -20,7 +19,7 @@ tags:
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1648_IOSApplicat1.png)
 
-命名这个证书，在这里我们命名为 Prateekg, 选择证书类型为 Code Signing, 不要选中 Let me override defaults.
+命名这个证书，在这里我们命名为 Prateekg, 选择证书类型为 Code Signing, 不要选中 Let me override defaults。
 点击创建和继续按钮。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1648_IOSApplicat2.png)
@@ -29,8 +28,7 @@ tags:
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1648_IOSApplicat3.png)
 
-现在把文件从/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Info.plist的Info.plist文件复制到
-桌面。这么做的原因是我们要编辑这个文件，但是在原位置是不能这么做的。因此，我们需要先复制到桌面，编辑后，再拷贝回原来位置。
+现在把文件从/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Info.plist的Info.plist文件复制到桌面。这么做的原因是我们要编辑这个文件，但是在原位置是不能这么做的。因此，我们需要先复制到桌面，编辑后，再拷贝回原来位置。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1648_IOSApplicat4.png)
 
@@ -39,7 +37,7 @@ tags:
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1648_IOSApplicat5.png)
 
-在这个文件中，把所有的XCiPhoneOSCodeSignContext 替换为  XCCodeSignContext，保存。现在你可以看到文件内容如下：
+在这个文件中，把所有的XCiPhoneOSCodeSignContext 替换为 XCCodeSignContext，保存。现在你可以看到文件内容如下：
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/070813_1648_IOSApplicat6.png)
 
