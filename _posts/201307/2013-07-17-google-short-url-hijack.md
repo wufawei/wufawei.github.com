@@ -106,7 +106,6 @@ http://www.google.com.hk/aclk?sa=L&ai=CbQJnm5rmUd-fG6GZmQWmv4CwBP6Bj7UF5qqo3miTg
 2) 关于我。
 新浪微博: [@吴发伟Ted](http://weibo.com/wufawei)
 
-微信公众账号：**iOS技术分享**   
-点击 <http://t.cn/zHpnevd> 查看所有的历史消息。（微信上打开此URL）
+微信公众账号：**iOS技术分享**
 
-![](http://farm3.staticflickr.com/2861/8836295022_023774dd2f.jpg)
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)

@@ -57,9 +57,7 @@ tags:
 
 新浪微博: [@吴发伟Ted](http://weibo.com/wufawei)
 
-**微信公众账号：iOS技术分享**
 
- **点击     **<http://t.cn/zHpnevd>**   查看所有的历史消息。**（微信上打开此URL）
+微信公众账号：**iOS技术分享**
 
-                 
-![](http://farm3.staticflickr.com/2861/8836295022_023774dd2f_m.jpg)
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)
