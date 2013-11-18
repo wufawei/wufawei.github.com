@@ -180,7 +180,7 @@ addOjectsToArray:。我们也知道r0-r3用来保存传递给子程序的参数�
 ![](http://resources.infosecinstitute.com/wp-content/uploads/110613_1702_IOSApplicat30.png)
 
 
-这会告诉我们很多关于内衣内部发生什么的信息。在接下来的文章中，我们将使用本文学到的东西来学习如何使用GDB执行运行时操作。
+这会告诉我们很多关于应用内部发生什么的信息。在接下来的文章中，我们将使用本文学到的东西来学习如何使用GDB执行运行时操作。
 
 
 
