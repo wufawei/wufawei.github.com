@@ -11,7 +11,7 @@ tags:
 在本文当中，我们将看看如何在我们自己的脚本中使用Introspy这个模块。
 
 
-第一件事情就是引入introspy模块，然后从argparse模块中引入Namespace。
+第一件事情就是引入Introspy模块，然后从argparse模块中引入Namespace。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/093013_1617_IOSApplicat1.png)
 
@@ -73,11 +73,10 @@ tags:
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/093013_1617_IOSApplicat13.png)
 
+
 <br/>
 ##总结
-在本文当中，我们查看了如何在我们自己的脚本中使用Introspy这个模块，然后用它从生成的数据库文件中获取签名，tracedCalls等等信息，
-然后用我们想要的方式展示出来。这可以用在对某个特定应用准备我们自己的分析报告的时候。这些信息也同样可以传入其他python脚本以便
-做进一步的工作，比如进行运行时操作等等。
+在本文当中，我们查看了如何在我们自己的脚本中使用Introspy这个模块，然后用它从生成的数据库文件中获取签名，tracedCalls等信息，然后用我们想要的方式展示出来。这可以用在对某个特定应用准备我们自己的分析报告的时候。这些信息也同样可以传入其他python脚本以便做进一步的工作，比如进行运行时操作等。
 
 
 

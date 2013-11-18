@@ -7,8 +7,7 @@ tags:
 - iOS Security
 ---   
 
-在前面一篇文章中，我们看到了如何使用Sogeti Data Protection tools用定制的ramdisk启动iOS设备。本文我们将如何用其中的一些工具来收集设备的信息，
-比如keychain的内容，导出整个文件系统甚至暴力破解口令。
+在前面一篇文章中，我们看到了如何使用Sogeti Data Protection tools用定制的ramdisk启动iOS设备。本文我们将如何用其中的一些工具来收集设备的信息，比如keychain的内容，导出整个文件系统甚至暴力破解口令。
 
 在上一篇文章当中，我们已经成功的用usbmux与设备建立了连接，ssh进设备，并且加载了分区。下面是分区包含的内容。
 
@@ -103,12 +102,12 @@ python脚本。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/082713_1245_IOSApplicat17.png)  
 
+
 <br/>
 ## 总结
 
 本文我们学习了使用Sogeti Data Protection tools 来从设备上收集不同的信息，比如keychain数据，被保护的文件，等等。我们也可以导出整个文件系统以便随后再分析。
-这个技巧可以在任何使用A4芯片的设备上用bootrom 漏洞利用来使用，而且并不需要对设备越狱，设备重启之后又会回到正常状态，因此，普通用户根本
-不知道发生了什么。
+这个技巧可以在任何使用A4芯片的设备上用bootrom 漏洞利用使用，而且并不需要对设备越狱，设备重启之后又会回到正常状态，因此，普通用户根本不知道发生了什么。
 
 
 References

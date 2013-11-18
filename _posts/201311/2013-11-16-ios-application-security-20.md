@@ -11,14 +11,12 @@ tags:
 
 本文我们将看看应用在本地存储数据有哪些方法以及这些不同方法的安全性。
 
-我们将会在一个demo上这些这些测试，你可以从我的[github][1]账号上下载这个例子程序。对于CoreData的例子，你可以从[这][2]下载例子程序。
-本例有一个不同点就是我们将会在模拟器上运行这些应用，而不是在设备上运行。这样做的目的是为了证明在前面文章中的操作都可以通过Xcode来把这些应用运行在模拟器上。当然，你也可以使用[前面文章中的步骤][4]把这应用安装到设备上。
+我们将会在一个demo上这些这些测试，你可以从我的[github][1]账号上下载这个例子程序。对于CoreData的例子，你可以从[这][2]下载例子程序。本例有一个不同点就是我们将会在模拟器上运行这些应用，而不是在设备上运行。这样做的目的是为了证明在前面文章中的操作都可以通过Xcode来把这些应用运行在模拟器上。当然，你也可以使用[前面文章中的步骤][4]把这应用安装到设备上。
 
 <br>
 ## NSUserDefaults
 
-保存用户信息和属性的一个非常普通的方法就是使用NSUserDefaults。保存在NSUserDefaults中的信息在你的应用关闭后再次打开之后依然存在。保存信息到NSUserDefaults
-的一个例子就是保存用户是否已登录的状态。我们把用户的登录状态保存到NSUserDefaults以便用户关闭应用再次打开应用的时候，应用能够从NSUserDefaults获取数据，根据用户是否登录展示不同的界面。有些应用也用这个功能来保存机密数据，比如用户的访问令牌，以便下次应用登录的时候，它们能够使用这个令牌来再次认证用户。
+保存用户信息和属性的一个非常普通的方法就是使用NSUserDefaults。保存在NSUserDefaults中的信息在你的应用关闭后再次打开之后依然存在。保存信息到NSUserDefaults的一个例子就是保存用户是否已登录的状态。我们把用户的登录状态保存到NSUserDefaults以便用户关闭应用再次打开应用的时候，应用能够从NSUserDefaults获取数据，根据用户是否登录展示不同的界面。有些应用也用这个功能来保存机密数据，比如用户的访问令牌，以便下次应用登录的时候，它们能够使用这个令牌来再次认证用户。
 
 
 从我的[github][1]可以下载例子应用，运行起来。你可以得到下面的界面，现在输入一些信息到与NSUserDefaults相关的文本框，然后点击下面的“Save in NSUserDefaults”。这样数据就保存到NSUserDefaults了。
@@ -29,6 +27,7 @@ tags:
 首先，我们需要找到我们应用的bundle id。因为我们在模拟器上运行，我们可以在/Users/$username/Library/Application Support/iPhone Simulator/$ios version of simulator/Applications/找到应用。我这的路径是：“Users/prateekgianchandani/Library/Application Support/iPhone Simulator/6.1/Applications”。
 
 一旦我们找到那个目录，我们可以看到一堆应用。我们可以用最近修改的日期找到我们的应用，因为它是最近修改的。
+
 ![](http://resources.infosecinstitute.com/wp-content/uploads/101613_1214_IOSApplicat2.png)
 
 进入到应用的bundle里面。通过NSUserDefaults保存的数据都可以在如下图所示的Library -> Preferences -> $AppBundleId.plist文件中找到。
@@ -43,7 +42,8 @@ tags:
 
 <br>
 ## Plist 文件
-另一种普遍用的保存数据的方法就是plist文件。Plist文件应该始终被用来保存那些非机密的文件，因为它们没有加密，因此即使在非越狱的设备上也非常容易被获取。已经有[漏洞][5]被爆出来，大公司把机密数据比如访问令牌，用户名和密码保存到plist文件中。在下面的demo中，我们输入一些信息并保存到plist文件。
+
+另一种保存数据普遍用的方法就是plist文件。**Plist文件应该始终被用来保存那些非机密的文件，因为它们没有加密，因此即使在非越狱的设备上也非常容易被获取**。已经有[漏洞][5]被爆出来，大公司把机密数据比如访问令牌，用户名和密码保存到plist文件中。在下面的demo中，我们输入一些信息并保存到plist文件。
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/101613_1214_IOSApplicat5.png)
 
@@ -76,12 +76,11 @@ tags:
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/101613_1214_IOSApplicat9.png)
 
-因此，基本上，CoreData可以用来创建一个model，管理不同对象的关系，把数据保存到本地，然后当你查询的时候从本地缓存中获取它们。本例中，
-我们将使用一个demo，位于[github][6]。运行起来，你会发现它只是一个简单的RSS feed。
-
+因此，基本上，CoreData可以用来创建一个model，管理不同对象的关系，把数据保存到本地，然后当你查询的时候从本地缓存中获取它们。本例中，我们将使用一个demo，位于[github][6]。运行起来，你会发现它只是一个简单的RSS feed。
 
 
 ![](http://resources.infosecinstitute.com/wp-content/uploads/101613_1214_IOSApplicat10.png)
+
 
 这个应用用CoreData保存数据。一个非常重要的一点就是CoreData内部使用sql，因此所有文件都以.db文件保存。我们到这个app的bundle中去看看。
 在这个app的bundle中，你可以看到那里有一个MyCoreData.sqlite的文件。
@@ -109,9 +108,7 @@ tags:
 <br>
 ## Keychain
 
-有些开发者不太喜欢把数据保存到Keychain中，因为实现起来不那么直观。不过，把信息保存到Keychain中可能是非越狱设备上最安全的一种保存数据的方式了。
-而在越狱设备上，[没有任何事情][8]是安全的。[这篇文章][9]展示了使用一个简单的wrapper类就把数据保存到keychain是多么的简单。使用这个wrapper来写保存
-数据到keychain就像把数据保存到NSUserDefaults那么简单。下面就是一段把字符串保存到keychain的代码。请注意和使用NSUserDefaults的语法非常类似。
+有些开发者不太喜欢把数据保存到Keychain中，因为实现起来不那么直观。**不过，把信息保存到Keychain中可能是非越狱设备上最安全的一种保存数据的方式了**。**而在越狱设备上，[没有任何事情][8]是安全的。**[这篇文章][9]展示了使用一个简单的wrapper类，把数据保存到keychain是多么的简单。使用这个wrapper来保存数据到keychain就像把数据保存到NSUserDefaults那么简单。下面就是一段把字符串保存到keychain的代码。请注意和使用NSUserDefaults的语法非常类似。
 
     [plain]
     PDKeychainBindings *bindings = [PDKeychainBindings sharedKeychainBindings];
@@ -124,18 +121,14 @@ tags:
     NSLog(@"Auth token is %@",[bindings objectForKey:@"authToken"]]);
     [/plain]
 
+
 <br>
 ## 一些小技巧
 
 
-
-
-
-正如之前讨论过的那样，没有任何信息在越狱设备上是安全的。攻击者能够拿到Plist文件，导出整个keychain，[替换][10]方法实现，并且攻击者
-能做他想做的任何事情。不过开发者能够使用一些小技巧来使得脚本小子从应用获得信息变得更难。比如把文件加密放到本地设备上。[这里][11]这篇文章详细的讨论了这一点。或者你可以使得攻击者更难理解你的信息。比如考虑要把某个用户的认证令牌（authentication token）保存到keychain当中，脚本小子可能就会导出keychain中的这个数据，然后试图劫持用户的会话。我们只需再把这个认证令牌字符串反转一下（reverse），然后再保存到keychain中，那么攻击者就不太可能会知道认证令牌是反转保存的。当然，攻击者可以追踪你的应用的每一个调用，然后理解到这一点，但是，一个如此简单的技术就能够让脚本小子猜足够的时间，以至于他们会开始寻找其它应用的漏洞。另一个简单技巧就是在每个真正的值保存之前都追加一个常量字符串。
+正如之前讨论过的那样，没有任何信息在越狱设备上是安全的。攻击者能够拿到Plist文件，导出整个keychain，[替换][10]方法实现，并且攻击者能做他想做的任何事情。**不过开发者能够使用一些小技巧来使得脚本小子从应用获得信息变得更难。**比如把**文件加密**放到本地设备上。[这里][11]这篇文章详细的讨论了这一点。或者你可以**使得攻击者更难理解你的信息**。比如考虑要把某个用户的认证令牌（authentication token）保存到keychain当中，脚本小子可能就会导出keychain中的这个数据，然后试图劫持用户的会话。我们只需再把这个认证令牌字符串**反转**一下（reverse），然后再保存到keychain中，那么攻击者就不太可能会知道认证令牌是反转保存的。当然，攻击者可以追踪你的应用的每一个调用，然后理解到这一点，但是，**一个如此简单的技术就能够让脚本小子猜足够的时间，以至于他们会开始寻找其它应用的漏洞**。另一个**简单技巧**就是在每个真正的值保存之前**都追加一个常量字符串**。
 
 在接下来的文章里，我们将讨论使用GDB进行运行时分析。
-
 
 
  <br/>

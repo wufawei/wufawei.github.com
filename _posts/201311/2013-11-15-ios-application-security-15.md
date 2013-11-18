@@ -10,9 +10,8 @@ tags:
 
 
 
-在前面的文章当中，我们看到了如何使用Sogeti Data protection tools利用bottom的漏洞，使用定制的ramdisk来启动iOS 设备。本文我们将学习用iNalyzer工具来对iOS
-应用进行黑盒测试。iNalyzer允许我们查看类信息，执行运行时分析和其他一些事情。基本上它把解密应用，导出类信息这些事情自动化了，并且更好的展示了出来。
-我们也可以像Cycript那样挂钩运行的进程。 iNalyzer由[AppSec Labs][1]开发和维护，它的官方地址在[这][2]。iNalyzer同时也已经开源了，gitub地址在[这][3]。
+在前面的文章当中，我们看到了如何使用Sogeti Data protection tools利用bottom的漏洞，使用定制的ramdisk来启动iOS设备。本文我们将学习用iNalyzer工具来对iOS
+应用进行黑盒测试。iNalyzer允许我们查看类信息，执行运行时分析和其他一些事情。基本上它把解密应用、导出类信息这些事情自动化了，并且更好的展示了出来。我们也可以像Cycript那样挂钩运行的进程。iNalyzer由[AppSec Labs][1]开发和维护，它的官方地址在[这][2]。iNalyzer同时也已经开源了，gitub地址在[这][3]。
 
 在用iNalyzer之前，有些依赖的软件需要先安装。请确保[Graphviz][4] 和[Doxygen][5]已经安装了，因为没有这2个工具，iNalyzer不会正常工作。并且，请注意，
 我在Mac OS X Mountain Lion 10.8.4上做的测试，但是我们用最新版本的Graphviz的时候它经常会挂起（hang）。因此，我下载了Graphviz的一个较老的版本（v 2.30.1）
@@ -134,8 +133,7 @@ SQL和URL字符串。
  <br/>
 ## 总结
 
- 本文我们学习了如何使用iNalyer对iOS应用程序进行静态分析，可以看到它使得我们的工作变得非常容易。在接下来的文章中，我们将看看如何用iNalyer对iOS应用
-进行运行时分析。
+ 本文我们学习了如何使用iNalyer对iOS应用程序进行静态分析，可以看到它使我们的工作变得非常容易。在接下来的文章中，我们将看看如何用iNalyer对iOS应用进行运行时分析。
 
  <br/>
 本文原文是 [IOS Application Security Part 15 – Static Analysis of IOS Applications using iNalyzer][7]
