@@ -30,8 +30,8 @@ tags:
 [iOS应用程序安全(19)-在程序中使用Introspy][19]  
 [iOS应用程序安全(20)-本地数据存储及其安全性（NSUserDefaults, CoreData, Sqlite, Plist 文件）][20]  
 [iOS应用程序安全(21)-ARM和GDB基础][21]  
-[iOS应用程序安全(22)-使用GDB进行运行时分析和操作][22]
-
+[iOS应用程序安全(22)-使用GDB进行运行时分析和操作][22]  
+[iOS应用程序安全(23)-对抗运行时分析和操作][31]
 
  <br/>
 相信读者把这一系列文章都看一遍，会对iOS应用的安全有个较为深入的了解。   
@@ -106,3 +106,4 @@ tags:
 [28]:http://wufawei.com/2013/08/iOS-jailbroken-programming-2/
 [29]:http://wufawei.com/2013/08/iOS-jailbroken-programming-3/
 [30]:http://wufawei.com/2013/08/iOS-jailbroken-programming-4/
+[31]:http://wufawei.com/2013/11/ios-application-security-23/
