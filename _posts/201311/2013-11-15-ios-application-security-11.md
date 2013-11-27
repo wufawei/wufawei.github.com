@@ -7,6 +7,11 @@ tags:
 - iOS Security
 ---   
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-11-analyzing-network-traffic-over-httphttps/  
+版权声明：自由转载-非商用-保持署名
+
 
 在前面的文章中，我们分析了iOS文件系统和取证。本文我们将看看如何分析iOS设备上的网络流量。分析应用的网络流量会带来几个方面的好处。它可以帮助我们推断应用是如何管理用户会话的，我们应用调用的另一方是谁，以及应用程序内部是如何工作的等等。我们也会看看如何分析使用SSL的网络流量。
 

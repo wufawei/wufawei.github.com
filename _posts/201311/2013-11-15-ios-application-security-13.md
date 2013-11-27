@@ -7,6 +7,11 @@ tags:
 - iOS Security
 ---   
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-13-booting-a-custom-ramdisk-using-sogeti-data-protection-tools/  
+版权声明：自由转载-非商用-保持署名
+
 
 在前面的文章当中，我们学习了如何使用Keychain-Dumper和Snoop-it来从iOS设备上导出和分析keychain的内容。本文我们将看看如何用一个自己的ramdisk来启动一个没有越狱的设备，并且分析该设备的内容。
 
@@ -143,7 +148,7 @@ https://code.google.com/p/iphone-dataprotection/
 [3]:http://msftguy.blogspot.in/2012/01/automatic-ssh-ramdisk-creation-and.html
 [4]:http://www.youtube.com/watch?feature=player_embedded&v=1dh5loiX1dU
 [5]:https://code.google.com/p/iphone-dataprotection/wiki/README
-[6]: http://theiphonewiki.com/wiki/Firmware
+[6]:http://theiphonewiki.com/wiki/Firmware
 [7]:http://resources.infosecinstitute.com/ios-application-security-part-13-booting-a-custom-ramdisk-using-sogeti-data-protection-tools/
 
 

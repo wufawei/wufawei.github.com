@@ -7,6 +7,11 @@ tags:
 - iOS Security
 ---   
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-3-understanding-the-objective-c-runtime/  
+版权声明：自由转载-非商用-保持署名
+
 ### 引言
 
 

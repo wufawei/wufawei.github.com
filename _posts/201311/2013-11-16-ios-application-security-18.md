@@ -7,6 +7,11 @@ tags:
 - iOS Security
 ---   
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-18-detecting-custom-signatures-with-introspy/  
+版权声明：自由转载-非商用-保持署名
+
 
 在前面的文章中，我们查看了如何使用Introspy对iOS应用进行黑盒评估。本文我们将看看如何使用Introspy来建立自定义的签名，然后在追踪应用的时候检测这些自定义签名。
 

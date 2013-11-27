@@ -8,6 +8,11 @@ tags:
 ---   
 
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-2-getting-class-information-of-ios-apps/  
+版权声明：自由转载-非商用-保持署名
+
 ###介绍
 
 你是否下载过非常cool的app（不管它是预装应用还是从App store下载的应用），然后想知道它是如何编写的，它使用了哪些第3方库呢？是否想知道这个app内部代码是如何组织的？你是否想导出它内部的图片（images）、plist文件？如果答案是想的话，那你来对地方了，本文就将解答这些信息。

@@ -8,6 +8,11 @@ tags:
 ---   
 
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-20-local-data-storage-nsuserdefaults-coredata-sqlite-plist-files/  
+版权声明：自由转载-非商用-保持署名
+
 
 本文我们将看看应用在本地存储数据有哪些方法以及这些不同方法的安全性。
 

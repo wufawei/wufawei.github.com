@@ -7,6 +7,10 @@ tags:
 - iOS Security
 ---   
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/part-15-static-analysis-of-ios-apps-using-inalyzer/  
+版权声明：自由转载-非商用-保持署名
 
 
 
@@ -145,7 +149,7 @@ SQL和URL字符串。
 [4]:http://www.graphviz.org/download..php
 [5]:http://www.stack.nl/~dimitri/doxygen/download.html
 [6]:http://www.graphviz.org/pub/graphviz/stable/macos/
-[7]: http://resources.infosecinstitute.com/part-15-static-analysis-of-ios-apps-using-inalyzer/
+[7]:http://resources.infosecinstitute.com/part-15-static-analysis-of-ios-apps-using-inalyzer/
 
 
 

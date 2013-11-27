@@ -7,6 +7,11 @@ tags:
 - iOS Security
 ---   
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-app-security-part-17-black-box-assess-ios-apps-using-introspy/  
+版权声明：自由转载-非商用-保持署名
+
 
 
 本文我们将看看如何使用Introspy对iOS应用进行黑盒测试。Introspy由[ISEC partners][1]开发，其github地址在[这][2]。Introspy由两个单独的模块组成，一个追踪器，一个分析器。它是分析iOS应用程序安全毫无疑问的最强大工具之一。

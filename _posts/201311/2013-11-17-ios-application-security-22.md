@@ -8,6 +8,11 @@ tags:
 ---   
 
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-22-runtime-analysis-manipulation-using-gdb/  
+版权声明：自由转载-非商用-保持署名
+
 本文我们将看看如何使用GDB来对iOS应用进行运行时分析。 在[前面的文章][1]中，我们已经查看了如何使用Cycript来分析和操作iOS应用的运行时行为。我们学习了如何执行[method swizzling][2]，并且调用我们自己的方法而不是原来的实现。因此，为什么我们还需要GDB呢？Cycript并不运行我们设置断点，不允许在某个特定指令后修改变量和寄存器的值。用GDB，我们可以更深入应用，观察底层的汇编指令，操作寄存器的值，因此可以完全改变程序的运行流程。
 
 

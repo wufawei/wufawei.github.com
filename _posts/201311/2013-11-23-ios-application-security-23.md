@@ -7,6 +7,12 @@ tags:
 - iOS Security
 ---   
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-23-defending-runtime-analysis-manipulation/  
+版权声明：自由转载-非商用-保持署名
+
+
 在前面的文章中，我们看到了如何使用调试器和工具如Cycript对iOS应用进行运行时分析和操作。我们也看到了在运行时通过使用GDB来修改寄存器的值是如何修改方法的具体实现的，看到了怎样使用工具如Cycript来进行[swizzling][1]方法实现。有Cycript和GDB这样的工具在手，加上你的应用程序可执行文件的拷贝，一切就都在攻击者的掌控之中。不过，有一些技巧能够使得攻击者更难攻击。本文我们将查看开发者能够用来对抗运行时分析和操作的防御技巧。
 
 在Xcode中，开发者（译者注：原文写的是攻击者，按上下文理解应该是开发者）能够使用一些检测方法来查看一个应用是否正被调试。在Xcode中，你可以用下面的代码来检查调试器是否存在。

@@ -7,6 +7,11 @@ tags:
 - iOS Security
 ---   
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-10-ios-filesystem-and-forensics/  
+版权声明：自由转载-非商用-保持署名
+
 ## 引言
 
 我们将在本文分析iOS的文件系统，了解其目录是如何组织的，查看一些重要的文件，然后看看如何才能够从数据库文件和plist文件导出数据。我们将学习应用是如何在特定目录（沙盒）内存放数据的，以及怎样才能提取这些数据。

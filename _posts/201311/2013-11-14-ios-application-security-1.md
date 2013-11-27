@@ -8,6 +8,11 @@ tags:
 ---   
 
  
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/  
+版权声明：自由转载-非商用-保持署名
+
 ### 引言
 
 在本系列文章中，我们将开始学习对iOS应用程序进行渗透测试和漏洞评估的一系列工具和技巧。
@@ -143,8 +148,7 @@ BigBoss Recommendation tools这个包中找到。安装BigBoss Recommendation to
 
 本文我们学习了如何越狱设备上搭建一个移动审计环境。在接下来的文章中我们将介绍如何使用class-dump-z来分析应用的类信息（class information）。
 
-<br/>
-本文原文是 [IOS Application security Part 1 – Setting up a mobile pentesting platform][4]
+
 
 
 <br/>

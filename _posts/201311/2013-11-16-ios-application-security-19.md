@@ -7,6 +7,11 @@ tags:
 - iOS Security
 ---   
 
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-19-programmatical-usage-of-introspy/  
+版权声明：自由转载-非商用-保持署名
+
 
 在本文当中，我们将看看如何在我们自己的脚本中使用Introspy这个模块。
 
@@ -88,6 +93,11 @@ Introspy
 https://github.com/iSECPartners/introspy
 
 
+ <br/>
+本文原文 [IOS Application Security Part 19 – Programmatical Usage of Introspy][1]
+
+
+
 
 
 [1]:http://resources.infosecinstitute.com/ios-application-security-part-19-programmatical-usage-of-introspy/
@@ -96,10 +106,3 @@ https://github.com/iSECPartners/introspy
 
 
 
-
-
-
- <br/>
-本文原文 [IOS Application Security Part 19 – Programmatical Usage of Introspy][1]
-
-[1]:http://resources.infosecinstitute.com/ios-application-security-part-18-detecting-custom-signatures-with-introspy/

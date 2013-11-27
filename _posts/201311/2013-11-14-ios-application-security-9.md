@@ -7,6 +7,14 @@ tags:
 - iOS Security
 ---   
 
+
+作者：Prateek Gianchandani  
+译者：吴发伟  
+原文网址：http://resources.infosecinstitute.com/ios-application-security-part-9-analyzing-security-of-ios-applications-using-snoop-it/  
+版权声明：自由转载-非商用-保持署名
+
+
+
 ##引言
 
 在前面的文章中我们介绍了如何用class-dump-z来导出iOS应用的类信息，如何利用Cycript挂钩进程、执行运行时操纵和method swizzling，用gdb分析app的流程。
