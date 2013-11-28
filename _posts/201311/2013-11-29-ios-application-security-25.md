@@ -131,6 +131,12 @@ bundle的Library -> Preferences -> $AppBundleId.plist。任何人都能够使用
 
 
 
+<br>
+微信公众账号：**iOS技术分享**
+
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)
+
+
 
 [1]:http://wufawei.com/2013/11/ios-application-security-20/
 [2]:http://highaltitudehacks.com/2013/09/17/ios-dev-storing-info-in-keychain-with-nsuserdefaults-like-syntax/
