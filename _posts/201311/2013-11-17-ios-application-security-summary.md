@@ -32,7 +32,6 @@ tags:
 [iOS应用程序安全(21)-ARM和GDB基础][21]  
 [iOS应用程序安全(22)-使用GDB进行运行时分析和操作][22]  
 [iOS应用程序安全(23)-对抗运行时分析和操作][31]  
-[iOS应用程序安全(24)-越狱检测与绕过][32]
 
  <br/>
 相信读者把这一系列文章都看一遍，会对iOS应用的安全有个较为深入的了解。   
@@ -108,4 +107,3 @@ tags:
 [29]:http://wufawei.com/2013/08/iOS-jailbroken-programming-3/
 [30]:http://wufawei.com/2013/08/iOS-jailbroken-programming-4/
 [31]:http://wufawei.com/2013/11/ios-application-security-23/
-[32]:http://wufawei.com/2013/11/ios-application-security-24/
