@@ -154,10 +154,6 @@ BigBoss Recommendation tools这个包中找到。安装BigBoss Recommendation to
 <br/>
 [译者注1]，在iPhone上的第一个蠕虫，ikee利用了默认的密码，具体参见对ikee的详细分析报告：[An Analysis of the iKeeB (duh) iPhone botnet (Worm)][6]
 
-<br>
-微信公众账号：**iOS技术分享**
-
-![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)
 
 [1]: http://evasi0n.com/
 [2]: http://www.redsn0w.us/

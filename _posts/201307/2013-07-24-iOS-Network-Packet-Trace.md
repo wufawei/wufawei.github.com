@@ -55,11 +55,3 @@ d)  sudo tcpdump -n -t -i rvi0 -q -A -v tcp | grep "somestring“
 <br/>
 
 （转载本站文章请注明作者和出处 吴发伟Ted – wufawei.com ，请勿用于任何商业用途）
-
----------这是分割线----------
-
-
-<br>
-微信公众账号：**iOS技术分享**
-
-![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)

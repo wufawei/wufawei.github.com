@@ -87,13 +87,6 @@ tags:
 本文原文 [IOS Application Security Part 23 – Defending against runtime analysis and manipulation][3]
 
 
-<br>
-微信公众账号：**iOS技术分享**
-
-![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)
-
-
-
 
 [1]:http://wufawei.com/2013/11/ios-application-security-8/
 [2]:https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man2/ptrace.2.html

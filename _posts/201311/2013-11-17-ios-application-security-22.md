@@ -113,11 +113,6 @@ tags:
 本文原文 [IOS Application Security Part 22 – Runtime Analysis and Manipulation using GDB][6]
 
 
-<br>
-微信公众账号：**iOS技术分享**
-
-![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)
-
 [1]:http://wufawei.com/
 [2]:http://wufawei.com/2013/11/ios-application-security-8/
 [3]:https://github.com/prateek147/gdb-demo

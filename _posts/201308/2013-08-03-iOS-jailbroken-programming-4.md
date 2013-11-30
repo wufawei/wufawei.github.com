@@ -45,19 +45,3 @@ tags:
 [MACTANS: INJECTING MALWARE INTO IOS DEVICES VIA MALICIOUS CHARGERS](https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf)
 
 （转载本站文章请注明作者和出处 吴发伟Ted – wufawei.com ，请勿用于任何商业用途）
-
----------这是分割线----------
-<br />
-
-1) 如果你是因为别人的分享来到这里的，可以到微信，点击查看公共账户，添加
-   iosinfo(iOS技术分享)为好友，会分享iOS开发相关技巧，有时也会发一些我觉得有趣的东西。
-
-  
-2)  关于我。  
-
-新浪微博: [@吴发伟Ted](http://weibo.com/wufawei)
-
-
-微信公众账号：**iOS技术分享**
-
-![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)
