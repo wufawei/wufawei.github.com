@@ -15,7 +15,8 @@ SPDY的目的是减少web页面加载时间和增进web安全。
 <br>
 ##SPDY替换了HTTP吗?
 
-没有。SPDY只是修改了HTTP 在网络上请求和响应的方式。这意味着现有的server端无需修改，只要有一个SPDY兼容的转换层在。
+没有。  
+SPDY只是修改了HTTP 在网络上请求和响应的方式。这意味着现有的server端无需修改，只要有一个SPDY兼容的转换层在。
 相对于HTTP，SPDY修改了连接管理(connection management)和数据传输格式（data transfer format）。
 
 <br>
