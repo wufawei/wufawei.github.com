@@ -70,10 +70,6 @@ tags:
 微博：[@吴发伟Ted](http://weibo.com/wufawei)     
 邮箱：wufawei(at)gmail.com
 
-<br>
-微信公众账号：**iOS技术分享**
-
-![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)
 
 
 [1]:http://wufawei.com/2013/11/ios-application-security-1/

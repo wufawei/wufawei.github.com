@@ -134,10 +134,6 @@ tags:
 作为开发者，我们能做的就是改变这个方法的名字为一个不那么吸引攻击者注意力的名字。例如JailbreakDetector这个类名可以重命名为ColorAdditions， +(BOOL)isJailbroken 可以替换为+(BOOL)didChangeColor，而其实现不改变。这些名字不会吸引攻击者的注意。攻击者总是能够通过Snoop-it，GDB等工具来查看内部的方法调用，不过，像刚刚那样的一个小改动就能迷惑住攻击者。
 
 
-<br>
-微信公众账号：**iOS技术分享**
-
-![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6.jpg)
 
 
 [1]:http://wufawei.com/2013/11/ios-application-security-summary/ 
