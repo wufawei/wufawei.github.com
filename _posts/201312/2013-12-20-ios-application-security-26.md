@@ -42,11 +42,16 @@ tags:
 具体如何修改，请参见原文:[IOS Application Security Part 26 – Patching IOS Applications using IDA Pro and Hex Fiend][2]
 
 
+<br>
+备注：
+如果对使用IDA Pro感兴趣，推荐看看这本书 [IDA Pro权威指南][4]，英文原版在[这][5]
+
+
 [1]:https://hex-rays.com/products/ida/index.shtml 
 [2]:http://resources.infosecinstitute.com/ios-application-security-part-26-patching-ios-applications-using-ida-pro-hex-fiend/ 
 [3]:http://stackoverflow.com/questions/14267081/difference-between-jz-je-and-jne-jnz
-
-
+[4]:http://book.douban.com/subject/4311436/
+[5]:http://www.idabook.com/index.html
 
 
 
