@@ -48,7 +48,17 @@ Chrome, Firefox, Opera, IE等都实现了SPDY。
 Google, Facebook, Twitter在其部分服务支持SPDY。  
 Apache, Nginx都有对应的module支持SPDY。
 
-要看看实际应用，可以访问google的服务，比如gmail, 图片，然后在浏览器输入**"chrome://net-internals/#events&q=type:SPDY_SESSION is:active**"
+要看看实际应用，可以访问google的服务，比如gmail, 图片，然后在浏览器输入
+
+**chrome://net-internals/#events&q=type:SPDY_SESSION is:active**
+
+<br>
+#### Twitter的SPDY框架
+
+Twitter 开源了他们的 SPDY 框架 [CocoaSPDY（for iOS and OS X）][4]。
+
+<br>
+另外，推荐看看ihower的[《SPDY 简介》][5]
 
 <br>
 ##Reference:
@@ -59,8 +69,8 @@ Apache, Nginx都有对应的module支持SPDY。
 [1]:http://en.wikipedia.org/wiki/SPDY
 [2]:http://www.cubrid.org/blog/dev-platform/what-is-spdy-deployment-recommendations/
 [3]:http://www.chromium.org/spdy
-
-
+[4]:https://github.com/twitter/CocoaSPDY
+[5]:http://vdisk.weibo.com/s/nuU6W
 
 
 
