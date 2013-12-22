@@ -23,7 +23,9 @@ tags:
 
 最后，可以看看关于Reveal的tips:[Reveal tips: Navigation][6]。
 
-
+<br>
+微信公众账号：**iOS技术分享**  
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6_m.jpg)
 
 [1]:http://wufawei.com/2013/11/quick-links/ 
 [2]:http://www.infoq.com/cn/news/2013/07/debug_ios_apps_with_reveal 
