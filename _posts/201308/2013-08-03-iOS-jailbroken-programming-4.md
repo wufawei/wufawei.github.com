@@ -44,4 +44,6 @@ tags:
 
 [MACTANS: INJECTING MALWARE INTO IOS DEVICES VIA MALICIOUS CHARGERS](https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf)
 
+[How To Create A MobileSubstrate Tweaks for iOS](http://ios-blog.co.uk/tutorials/how-to-create-a-mobilesubstrate-tweaks-for-ios/)
+
 （转载本站文章请注明作者和出处 吴发伟Ted – wufawei.com ，请勿用于任何商业用途）
