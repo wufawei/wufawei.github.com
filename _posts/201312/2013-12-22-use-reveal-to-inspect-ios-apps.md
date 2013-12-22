@@ -14,16 +14,18 @@ tags:
 
 在[Reveal][3]主页上有对其功能的介绍和演示，之前是beta版本，可以免费下载。现在正式版本可以下载试用一段时间，试用期后需要购买。有需要的话可以买一个，功能相当强大。
 
-
+<br>
 #####加载方法（1）  
 下载Reveal之后打开，在菜单中的Help中可以找到集成到Xcode项目的方法，这里不再赘述。
 
+<br>
 #####加载方法（2）  
 不过上述方法略显繁琐。  
 [Integrating Reveal without modifying your Xcode project][4]   
 [reveal: 檢視 iOS app 的 view 結構][5]。  
 给出了如何不用修改Xcode工程就可以加载使用Reveal的方法。
 
+<br>
 #####加载方法（3）  
 [Reveal查看任意app的高级技巧][7]介绍了如何在越狱设备上查看任意app的技巧。[iOS 7已经可以越狱了][8]，你可以在iOS7的设备上运行试试。
 
