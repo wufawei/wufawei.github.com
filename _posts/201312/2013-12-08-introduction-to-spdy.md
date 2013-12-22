@@ -55,7 +55,9 @@ Apache, Nginx都有对应的module支持SPDY。
 <br>
 ## Twitter的SPDY框架
 
-Twitter 开源了他们的 SPDY 框架 [CocoaSPDY（for iOS and OS X）][4]。
+Twitter 开源了他们的 SPDY 框架 [CocoaSPDY（for iOS and OS X）][4]。  
+
+SPDY**减少了大约30%的延迟（latency）**，参见：[CocoaSPDY: SPDY for iOS / OS X][6]
 
 <br>
 另外，推荐看看ihower的[《SPDY 简介》][5]
@@ -71,7 +73,7 @@ Twitter 开源了他们的 SPDY 框架 [CocoaSPDY（for iOS and OS X）][4]。
 [3]:http://www.chromium.org/spdy
 [4]:https://github.com/twitter/CocoaSPDY
 [5]:http://vdisk.weibo.com/s/nuU6W
-
+[6]:https://blog.twitter.com/2013/cocoaspdy-spdy-for-ios-os-x
 
 
 
