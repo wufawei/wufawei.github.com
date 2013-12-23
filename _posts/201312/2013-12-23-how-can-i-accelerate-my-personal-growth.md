@@ -56,5 +56,13 @@ Jim Stone的回答得到了1.6k个赞。
 
 如何走出舒适区，建议看看[如何走出自己的舒适区][2]
 
+
+<br>
+
+微信公众账号：**iOS技术分享**  
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6_m.jpg)
+
+
+
 [1]:http://www.quora.com/Self-Improvement/How-can-I-accelerate-my-personal-growth 
 [2]:http://article.yeeyan.org/view/442798/391391

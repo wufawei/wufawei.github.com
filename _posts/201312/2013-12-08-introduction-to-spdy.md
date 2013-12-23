@@ -68,6 +68,12 @@ SPDY**减少了大约30%的延迟（latency）**，参见：[CocoaSPDY: SPDY for
 2 [What is SPDY? Deployment Recommendations][2]  
 3 [SPDY The Chromium Projects][3]
 
+<br>
+
+微信公众账号：**iOS技术分享**  
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6_m.jpg)
+
+
 [1]:http://en.wikipedia.org/wiki/SPDY
 [2]:http://www.cubrid.org/blog/dev-platform/what-is-spdy-deployment-recommendations/
 [3]:http://www.chromium.org/spdy
