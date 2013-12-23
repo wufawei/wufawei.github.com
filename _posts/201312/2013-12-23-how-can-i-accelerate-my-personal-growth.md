@@ -57,6 +57,17 @@ Jim Stone的回答得到了1.6k个赞。
 如何走出舒适区，建议看看[如何走出自己的舒适区][2]
 
 
+
+<br>
+
+Auren Hoffman的回答也获得了不少的赞，他认为，要快速成长，你需要一个满足下面条件的工作。
+
+* 你周围工作的人比你聪明（Find a company where at least 30% of the people are smarter than you
+）
+* 你有试错的机会（Opportunity to fail）
+* 你的公司有给像你这样的人巨大责任的历史（Opportunities for massive responsibility）
+
+
 <br>
 
 微信公众账号：**iOS技术分享**  
