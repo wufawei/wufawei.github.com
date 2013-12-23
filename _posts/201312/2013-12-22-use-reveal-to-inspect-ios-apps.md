@@ -30,14 +30,9 @@ tags:
 [Reveal查看任意app的高级技巧][7]介绍了如何在越狱设备上查看任意app的技巧：
 
 
-**将libReveal.dylib上传到设备的/Library/MobileSubstrate/DynamicLibraries**  
+**将libReveal.dylib上传到设备的/Library/MobileSubstrate/DynamicLibraries**。  
 
-![](http://s7.sinaimg.cn/mw690/003J6gH0zy6FclUuvMqa6)
-
-**编辑并上传一个libReveal.plist，格式如下：**
-
-
-![](http://s9.sinaimg.cn/mw690/003J6gH0zy6FcmaO2Fye8)
+**编辑并上传一个libReveal.plist**。
 
 更详细的步骤，请参见原文。
 
