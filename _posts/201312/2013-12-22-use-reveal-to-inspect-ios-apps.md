@@ -27,9 +27,28 @@ tags:
 <br>
 ###加载方法（3）  
 
-[Reveal查看任意app的高级技巧][7]介绍了如何在越狱设备上查看任意app的技巧。[iOS 7已经可以越狱了][8]，**建议最好还是不要越狱**，越狱设备上有许多安全问题，具体可以参看我之前的博客文章。
+[Reveal查看任意app的高级技巧][7]介绍了如何在越狱设备上查看任意app的技巧：
+
+
+**将libReveal.dylib上传到设备的/Library/MobileSubstrate/DynamicLibraries**  
+
+![](http://s7.sinaimg.cn/mw690/003J6gH0zy6FclUuvMqa6)
+
+**编辑并上传一个libReveal.plist，格式如下：**
+
+
+![](http://s9.sinaimg.cn/mw690/003J6gH0zy6FcmaO2Fye8)
+
+更详细的步骤，请参见原文。
+
 
 最后，可以看看关于Reveal的tips:[Reveal tips: Navigation][6]。
+
+
+<br>
+
+[iOS 7已经可以越狱了][8]，**建议最好还是不要越狱**。 越狱设备上有许多安全问题，具体可以参看我之前的博客文章。
+
 
 
 <br>
