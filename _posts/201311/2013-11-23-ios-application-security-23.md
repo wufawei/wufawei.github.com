@@ -80,7 +80,8 @@ tags:
 
 
 
-译者注：第一种方法，我在Xcode5上没有试成功，如果有人知道原因，麻烦说一下。
+译者注1：第一种方法，我在Xcode5上没有试成功，如果有人知道原因，麻烦说一下。   
+译者注2；SEC_IS_BEING_DEBUGGED_RETURN_NIL是一个自定义的宏，请参见[iOS App Security and Analysis: Part 2/2][4] 和 [这][5] （感谢小伙伴 方彬@支付宝 给我提示）
 
 
    <br/>
@@ -91,5 +92,6 @@ tags:
 [1]:http://wufawei.com/2013/11/ios-application-security-8/
 [2]:https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man2/ptrace.2.html
 [3]:http://resources.infosecinstitute.com/ios-application-security-part-23-defending-runtime-analysis-manipulation/
-
+[4]:http://www.raywenderlich.com/46223/ios-app-security-analysis-part-2
+[5]:https://github.com/x128/MemeCollector/blob/master/Meme%20Collector/NSObject%2BdebugCheck.h
 
