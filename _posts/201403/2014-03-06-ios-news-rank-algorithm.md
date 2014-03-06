@@ -89,7 +89,10 @@ G 代表“重力因子“，默认值是1.8
 [点此访问好文推荐（news.ios-wiki.com）][1]
 
 <br/>
-对这个算法的介绍，参见：[How Hacker News ranking algorithm works][3]
+
+对这个算法的介绍
+
+参见：[How Hacker News ranking algorithm works][3] 和 [基于用户投票的排名算法（一）：Delicious和Hacker News][4]
 
 
 
@@ -97,3 +100,4 @@ G 代表“重力因子“，默认值是1.8
 [1]:http://news.ios-wiki.com
 [2]:arclanguage.org
 [3]:http://amix.dk/blog/post/19574
+[4]:http://www.ruanyifeng.com/blog/2012/02/ranking_algorithm_hacker_news.html
