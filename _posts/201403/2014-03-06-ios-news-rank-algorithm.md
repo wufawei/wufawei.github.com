@@ -30,7 +30,7 @@ iOS News用的是Hacker News的一个排名算法。基于用户投票，每个�
 因此，投票算法要考虑 1）投票数 2）时间
 
 
-正如之前的文章[][]中介绍的那样， Hacker News由Paul Graham用Arc实现的，其代码开源，位于：
+正如之前的文章[iOS 好文推荐（iOS News）上线][6]中介绍的那样， Hacker News由Paul Graham用Arc实现的，其代码开源，位于：
 [arclanguage.org][2]
 
 其代码是这样实现的：
@@ -117,3 +117,4 @@ G 代表“重力因子“，默认值是1.8
 [3]:http://amix.dk/blog/post/19574
 [4]:http://www.ruanyifeng.com/blog/2012/02/ranking_algorithm_hacker_news.html
 [5]:http://news.ios-wiki.com
+[6]:http://wufawei.com/2014/02/ios-news/
