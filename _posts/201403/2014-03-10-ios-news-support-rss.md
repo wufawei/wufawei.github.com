@@ -48,7 +48,7 @@ PyRSS2Gen。查看[http://wufawei.com/feed/][4]的源代码，可以知道每条
 
 ###好文推荐  && iOS Wiki
 
-[好文推荐(news.ios-wiki.com)][1]和[iOS Wiki(www.ios-wiki.com)][5]是我利用业余时间建立的网站。
+[好文推荐(news.ios-wiki.com)][1]和[iOS Wiki(www.ios-wiki.com)][6]是我利用业余时间建立的网站。
 
 ###微信公众账号
 微信公众账号：**iOS技术分享**  
@@ -62,3 +62,4 @@ PyRSS2Gen。查看[http://wufawei.com/feed/][4]的源代码，可以知道每条
 [3]:http://svn.python.org/projects/peps/trunk/PyRSS2Gen.py
 [4]:http://wufawei.com/feed/
 [5]:http://news.ios-wiki.com/feed
+[6]:http://www.ios-wiki.com
