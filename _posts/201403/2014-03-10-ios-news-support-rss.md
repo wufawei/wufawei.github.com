@@ -36,10 +36,25 @@ PyRSS2Gen。查看[http://wufawei.com/feed/][4]的源代码，可以知道每条
  用上面的格式，查询DB，生成RSS Feed。
  
  
- 访问[好文推荐][1],点击[订阅][5]可找到RSS Feed。
+ 访问[好文推荐][1], 点击[订阅][5]可找到RSS Feed。
  
  
   欢迎使用Feedly等工具订阅[好文推荐][1]的[RSS Feed][5]。
+
+<br>
+
+###关于我
+大家好，我是[@吴发伟Ted](http://weibo.com/wufawei)，我会在博客上分享自己学习的一些东西。
+
+###好文推荐  && iOS Wiki
+
+[好文推荐(news.ios-wiki.com)][1]和[iOS Wiki(www.ios-wiki.com)][5]是我利用业余时间建立的网站。
+
+###微信公众账号
+微信公众账号：**iOS技术分享**  
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6_m.jpg)
+
+[1]:http://www.ios-wiki.com
 
  
 [1]:http://news.ios-wiki.com
