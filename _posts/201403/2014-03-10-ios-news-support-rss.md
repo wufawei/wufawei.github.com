@@ -33,12 +33,17 @@ PyRSS2Gen。查看[http://wufawei.com/feed/][4]的源代码，可以知道每条
      </itme>
      
  
- 用上面的格式，查询DB，生成RSS Feed即可。
+ 用上面的格式，查询DB，生成RSS Feed。
  
- 欢迎使用Feedly等工具订阅[好文推荐][1]的RSS Feed。
  
+ 访问[好文推荐][1],点击[订阅][5]可找到RSS Feed。
+ 
+ 
+  欢迎使用Feedly等工具订阅[好文推荐][1]的[RSS Feed][5]。
+
  
 [1]:http://news.ios-wiki.com
 [2]:https://pypi.python.org/pypi/PyRSS2Gen/
 [3]:http://svn.python.org/projects/peps/trunk/PyRSS2Gen.py
 [4]:http://wufawei.com/feed/
+[5]:http://news.ios-wiki.com/feed
