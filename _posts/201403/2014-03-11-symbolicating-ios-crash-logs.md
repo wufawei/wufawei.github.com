@@ -64,7 +64,7 @@ crash文件的部分内容：
 
 <br>
 
-##方法1:使用XCode
+##方法1  使用XCode
 
 这种方法可能是最容易的方法了。
 
@@ -86,7 +86,7 @@ crash文件的部分内容：
  
  
 <br>
-##方法2:使用命令行工具symbolicatecrash
+##方法2  使用命令行工具symbolicatecrash
 
 有时候Xcode不能够很好的符号化crash文件。我们这里介绍如何通过symbolicatecrash来手动符号化crash log。
 
@@ -105,7 +105,7 @@ crash文件的部分内容：
 
 
 <br>
-##方法3:使用命令行工具atos
+##方法3 使用命令行工具atos
 
 如果你有多个“.ipa”文件，多个".dSYMB"文件，你并不太确定到底“dSYMB”文件对应哪个".ipa"文件，那么，这个方法就非常适合你。
 
