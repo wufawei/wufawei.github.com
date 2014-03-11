@@ -239,3 +239,23 @@ crash文件的部分内容：
 
 [5] :[Symbolicating iPhone App Crash Reports](<http://stackoverflow.com/questions/1460892/symbolicating-iphone-app-crash-reports/4954949>)
 
+
+[6]:http://www.ios-wiki.com
+[7]:http://news.ios-wiki.com/newest
+[8]:http://news.ios-wiki.com/feed
+
+
+<br>
+
+###关于我
+大家好，我是[@吴发伟Ted](http://weibo.com/wufawei)，我会在博客上分享自己学习的一些东西。
+
+###好文推荐  && iOS Wiki
+
+[好文推荐(news.ios-wiki.com)][7]和[iOS Wiki(www.ios-wiki.com)][6]是我利用业余时间建立的网站。
+
+ 欢迎使用Feedly等工具订阅[好文推荐][7]的[RSS Feed][8]
+  
+###微信公众账号
+微信公众账号：**iOS技术分享**  
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6_m.jpg)
