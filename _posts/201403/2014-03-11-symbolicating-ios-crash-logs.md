@@ -9,7 +9,7 @@ tags:
  
 
  
- 当你的应用提交到AppStore或者各个渠道之后，请问你多久会拿到crash文件？你的应用如何处理crash 文件的呢？
+ 当你的应用提交到AppStore或者各个渠道之后，请问你多久会拿到crash文件？你如何分析crash文件的呢？
 
 <br>
 ##上传crash文件
