@@ -36,7 +36,8 @@ tags:
 [iOS应用程序安全(22)-使用GDB进行运行时分析和操作][22]  
 [iOS应用程序安全(23)-对抗运行时分析和操作][31]  
 [iOS应用程序安全(24)-对抗运行时分析和操作][32]  
-[iOS应用程序安全(25)-对抗运行时分析和操作][33]
+[iOS应用程序安全(25)-对抗运行时分析和操作][33]  
+[iOS应用程序安全(26)- 使用IDA Pro给iOS应用打补丁][34]
 
  <br/>
 相信读者把这一系列文章都看一遍，会对iOS应用的安全有个较为深入的了解。   
@@ -104,3 +105,4 @@ tags:
 [31]:http://wufawei.com/2013/11/ios-application-security-23/
 [32]:http://wufawei.com/2013/11/ios-application-security-24/
 [33]:http://wufawei.com/2013/11/ios-application-security-25/
+[34]:http://wufawei.com/2013/12/ios-application-security-26/
