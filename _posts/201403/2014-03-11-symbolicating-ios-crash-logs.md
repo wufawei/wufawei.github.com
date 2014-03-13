@@ -142,7 +142,7 @@ crash文件的部分内容：
 
 ###如何找到app的UUID
 
-可以使用命令：**`xcrun dwarfdump –uuid <AppName.app/ExecutableName>`**
+可以使用命令：**`xcrun dwarfdump -–uuid <AppName.app/ExecutableName>`**
 
 比如：
 
