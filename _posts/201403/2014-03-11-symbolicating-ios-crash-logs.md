@@ -134,7 +134,7 @@ crash文件的部分内容：
 可以得到类似如下的结果：
 
 
-> appName.crash-**0x4000** - 0x9e7fff TmallClient-iPhone** armv7 **
+> appName.crash-**0x4000** - 0x9e7fff appName** armv7 **
 > <**8bdeaf1a0b233ac199728c2a0ebb4165**>
 > /var/mobile/Applications/A0F8AB29-35D1-4E6E-84E2-954DE7D21CA1/appName.crash.app/appName
 
@@ -186,9 +186,9 @@ crash文件的部分内容：
 * `xcrun atos -o appName.app.dSYM/Contents/Resources/DWARF/appName -l 0x4000 -arch armv7`
 
 
-* `xcrun atos -o appName.app.dSYM/Contents/Resources/DWARF/TmallClient-iPhone -arch armv7`
+* `xcrun atos -o appName.app.dSYM/Contents/Resources/DWARF/appName -arch armv7`
 
-* `xcrun atos -o TmallClient-iPhone.app/TmallClient-iPhone -arch armv7`
+* `xcrun atos -o appName.app/appName -arch armv7`
 
 （这3行选任意一行执行都可以达到目的，其中0x4000是模块的加载地址，从上面的章节可以找到如何得到这个地址。）
 
