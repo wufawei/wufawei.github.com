@@ -17,12 +17,7 @@ Xcode 5.0中引入并在Xcode 5.1中增加进一步支持的一个有趣功能�
 其他支持的系统类（system classes）包括 UIImage, UIImageView, CIImage, UIColor,
 UIBezierPath, CLLocation, UIView, NSString, NSAttributedString, NSData, NSURL
 
-
-
-显示CLLocation的例子如下图：
-
-![](http://farm8.staticflickr.com/7237/13230392323_a032147890_b.jpg)
-
+举2个例子：
 
 显示UIView的子类的例子如下：
 
@@ -48,7 +43,7 @@ UIBezierPath, CLLocation, UIView, NSString, NSAttributedString, NSData, NSURL
   
     - (id)debugQuickLookObject {
         
-        /*return @"在自定义的类里面实现 - (id)debugQuickLookObject  就可以在Debug的时候现实Quick Look信息，方便调试";*/
+        /*return @"在自定义的类里面实现 - (id)debugQuickLookObject  就可以在Debug的时候现实Quick Look信息，方便调试";*/ 
         
         
         return [[CLLocation alloc] initWithCoordinate:CLLocationCoordinate2DMake(116.35405, 39.84671)
@@ -57,15 +52,26 @@ UIBezierPath, CLLocation, UIView, NSString, NSAttributedString, NSData, NSURL
                                      verticalAccuracy:1000
                                                course:100
                                                 speed:1
-                                            timestamp:[NSDate date]];
+                                            timestamp:[NSDate date]];//上面的CLLocation
     }
  
  
  这样就可以在自定义类中显示自定义的信息。
  
- 
  上面的代码既可以显示文本信息，也可以显示CLLocation信息。
+
+显示文本信息的例子如下：
+
+  ![](http://farm4.staticflickr.com/3772/13230823724_a938eeb60d_b.jpg)
+
+
+
  
+ 
+ 显示CLLocation的例子如下图：
+
+![](http://farm8.staticflickr.com/7237/13230392323_a032147890_b.jpg)
+
  
  也可以显示自定义类的NSAttributedString信息，如下面的代码所示：
  
@@ -83,6 +89,7 @@ UIBezierPath, CLLocation, UIView, NSString, NSAttributedString, NSData, NSURL
  
  
  ![](http://useyourloaf.com/assets/images/2014/2014-03-12-004.png) 
+ 
  
 
 <br>
