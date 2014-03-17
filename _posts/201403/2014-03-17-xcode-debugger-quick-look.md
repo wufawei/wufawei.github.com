@@ -21,7 +21,7 @@ UIBezierPath, CLLocation, UIView, NSString, NSAttributedString, NSData, NSURL
 
 显示UIView的子类的例子如下：
 
-![](http://farm4.staticflickr.com/3788/13230582493_2194af8616_b.jpg)
+![](http://farm4.staticflickr.com/3788/13230582493_2194af8616.jpg)
 
 显示URL的例子如下：
 
