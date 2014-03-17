@@ -11,7 +11,7 @@ tags:
 ###Quick Look之显示系统类
 Xcode 5.0中引入并在Xcode 5.1中增加进一步支持的一个有趣功能就是显示变量的Quick Look功能。比如如下图所示，你可以点击眼睛图标来显示调试器中的变量，如下图所示，你可以看到这个UIColor的颜色。
 
-![](http://useyourloaf.com/assets/images/2014/2014-03-12-001.png)
+![](http://farm4.staticflickr.com/3810/13231223974_d2ce69b543_b.jpg)
 
 
 其他支持的系统类（system classes）包括 UIImage, UIImageView, CIImage, UIColor,
@@ -85,16 +85,21 @@ UIBezierPath, CLLocation, UIView, NSString, NSAttributedString, NSData, NSURL
     }
 
  
- 效果如下图所示：
- 
- 
- ![](http://useyourloaf.com/assets/images/2014/2014-03-12-004.png) 
- 
- 
+
 
 <br>
 
 参见：[xcode 5.1 Xcode Debugger Quick Look ][1]
+
+<br>
+
+###特别注意
+
+Quick Look功能对于UIView和UIColor来说，并不是每次都能正常显示，这个时候只用把对应的变量类型改为id，就可以显示了。如下图所示：
+
+![](http://farm4.staticflickr.com/3810/13231223974_d2ce69b543_b.jpg)
+
+
 
 <br>
 
