@@ -17,27 +17,20 @@ Xcode 5.0中引入并在Xcode 5.1中增加进一步支持的一个有趣功能�
 其他支持的系统类（system classes）包括 UIImage, UIImageView, CIImage, UIColor,
 UIBezierPath, CLLocation, UIView, NSString, NSAttributedString, NSData, NSURL
 
-显示BezierPath类的例子如下图：
-
-![](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/CustomClassDisplay_in_QuickLook/art/vvql-05.png)
-
 
 
 显示CLLocation的例子如下图：
 
-![](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/CustomClassDisplay_in_QuickLook/art/vvql-06.png)
+![](http://farm8.staticflickr.com/7237/13230392323_a032147890_b.jpg)
 
 
-显示UIView的例子如下：
+显示UIView的子类的例子如下：
 
-![](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/CustomClassDisplay_in_QuickLook/art/vvql-08b_2x.png)
-
-
-![](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/CustomClassDisplay_in_QuickLook/art/vvql-08c_2x.png)
+![](http://farm4.staticflickr.com/3788/13230582493_2194af8616_b.jpg)
 
 显示URL的例子如下：
 
-![](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/CustomClassDisplay_in_QuickLook/art/vvql-16.png)
+![](http://farm3.staticflickr.com/2872/13230670844_4fafb22ce1_b.jpg)
 
 
 
