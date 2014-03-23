@@ -68,9 +68,28 @@ iOS技术分享第8期的主要内容精选自[iOS News][1]。
 手机版本，请访问[iOS技术分享第8期][3]。
 
 
+<br>
+
+###关于我
+大家好，我是[@吴发伟Ted](http://weibo.com/wufawei)，我会在博客上分享自己学习的一些东西。
+
+###好文推荐  && iOS Wiki
+
+[好文推荐(news.ios-wiki.com)][5]和[iOS Wiki(www.ios-wiki.com)][6]是我利用业余时间建立的网站。
+
+###微信公众账号
+微信公众账号：**iOS技术分享**  
+![](http://farm3.staticflickr.com/2826/10855679484_56b7429bd6_m.jpg)
+
+
+
 
 <br/>
 
 [1]:http://news.ios-wiki.com
 [2]:http://www.ios-wiki.com/issues/8
 [3]:http://www.ios-wiki.com/mobile/issues/8
+
+
+[5]:http://news.ios-wiki.com
+[6]:http://www.ios-wiki.com
