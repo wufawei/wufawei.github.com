@@ -10,7 +10,7 @@ tags:
 ### iOS技术周报改版
 从年初开始做[iOS技术周报(weekly.ios-wiki.com)][7]，加上最新的这一期，已经13期了，之前叫做技术分享，但是是按照每周来出的，名字就改为周报了。
 
-周末参照着[Dave Verwer][3]的[iOS Dev Weekly][4]的UI样式，周末对iOS技术周报网站的UI做了改版。网站底部有其网站和个人主页的链接。
+参照着[Dave Verwer][3]的[iOS Dev Weekly][4]的UI样式，周末对iOS技术周报网站的UI做了改版。网站底部有其网站和个人主页的链接。
 
 
 **建议大家都订阅 [Dave Verwer][3]的[iOS Dev Weekly][4]。**
