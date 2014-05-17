@@ -49,9 +49,9 @@ Part5 分享了一些高级分析技术。分析了如何获得特定类的信�
 3）存入keychain。  
 
 如果直接保存明文，即使在keychain中，也不安全。
-之前我写过一篇blog，[**keychain is not safe**](http://wufawei.com/2013/06/Keychain-is-not-safe/)，里面提到了某微博，其实就是**新浪微博客户端**，**把用户密码存在keychain中，在一定条件下，也是可以提取出来的**。
+之前我写过一篇blog，[**keychain is not safe**](http://wufawei.com/2013/06/Keychain-is-not-safe/)，里面提到了某微博，其实就是**某微博客户端**，**把用户密码存在keychain中，在一定条件下，也是可以提取出来的**。
    
- (下面图中password所在位置就是我新浪微博的密码，为了演示，这里做了修改）
+ (下面图中password所在位置就是我在某微博的密码，为了演示，这里做了修改）
 
 
 
