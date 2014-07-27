@@ -63,7 +63,7 @@ disas命令后面提供函数名称来导出某个特定函数的汇编。例如
 
 可以通过命令info breakpoints看到所有的断点。
 
-![](httpources.infosecinstitute.com/wp-content/uploads/110613_1702_IOSApplicat10.png)
+![](htt://repources.infosecinstitute.com/wp-content/uploads/110613_1702_IOSApplicat10.png)
 
 通过命令 delete 和 断点的ID就可以删除任何断点。
 
