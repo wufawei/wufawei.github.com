@@ -63,15 +63,9 @@ Flipboard开源的iOS设备调试工具，除了自己开发的app，还可以�
 * Burp Suite    
 介绍如何使用免费的Burp Suite对iOS App的网络请求进行分析。
 
-* CocoaDocs  
-@6david9分享的Cocoa 第三方库的文档查询网站， 常用的第三方库的文档都有。
 
 
 ###设计
-
-* Best iOS 7 Animations: Call for Nominees  
-  iOS 7之后， 应用需要更加clarity, deference, and depth，你觉得iOS 7上哪个应用的动画最好，文章中的app能给你些参考。  
-
  
 * Apple Configurator  
    最上面提到的工具，非常方便的配置iOS设备。
